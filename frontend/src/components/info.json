@@ -1,0 +1,3574 @@
+[
+    {
+        "profileIconId": 4570,
+        "name": "one dance",
+        "summonerLevel": 87,
+        "rankedInfo": {
+            "queueType": "RANKED_SOLO_5x5",
+            "tier": "DIAMOND",
+            "rank": "I",
+            "wins": 260,
+            "losses": 226
+        }
+    },
+    {
+        "gameDuration": {
+            "minutes": 16,
+            "seconds": 58
+        },
+        "gameType": 420,
+        "daysAgo": 11,
+        "winner": {
+            "100": "Fail",
+            "200": "Win"
+        },
+        "win": false,
+        "players": [
+            {
+                "team": 100,
+                "player": "one dance",
+                "champion": 39,
+                "summonerSpells": {
+                    "spell1": 4,
+                    "spell2": 12
+                },
+                "runes": {
+                    "primaryRune": 8010,
+                    "secondaryRune": 8300
+                },
+                "kda": {
+                    "kills": 0,
+                    "deaths": 6,
+                    "assists": 1,
+                    "kda": "0.17"
+                },
+                "damage": 3282,
+                "wards": 2,
+                "cs": {
+                    "totalCS": 106,
+                    "cspm": "6.2"
+                },
+                "items": {
+                    "item1": 2033,
+                    "item2": 1001,
+                    "item3": 3153,
+                    "item4": 1033,
+                    "item5": 0,
+                    "item6": 0,
+                    "Item7": 3340
+                }
+            },
+            {
+                "team": 100,
+                "player": "andrews smurf 2",
+                "champion": 121,
+                "summonerSpells": {
+                    "spell1": 4,
+                    "spell2": 11
+                },
+                "runes": {
+                    "primaryRune": 8128,
+                    "secondaryRune": 8200
+                },
+                "kda": {
+                    "kills": 6,
+                    "deaths": 3,
+                    "assists": 0,
+                    "kda": "2.00"
+                },
+                "damage": 6683,
+                "wards": 4,
+                "cs": {
+                    "totalCS": 20,
+                    "cspm": "1.2"
+                },
+                "items": {
+                    "item1": 1400,
+                    "item2": 2031,
+                    "item3": 1036,
+                    "item4": 3134,
+                    "item5": 3111,
+                    "item6": 1036,
+                    "Item7": 3364
+                }
+            },
+            {
+                "team": 100,
+                "player": "gerogeEzreal",
+                "champion": 3,
+                "summonerSpells": {
+                    "spell1": 4,
+                    "spell2": 14
+                },
+                "runes": {
+                    "primaryRune": 8439,
+                    "secondaryRune": 8200
+                },
+                "kda": {
+                    "kills": 1,
+                    "deaths": 2,
+                    "assists": 1,
+                    "kda": "1.00"
+                },
+                "damage": 2277,
+                "wards": 7,
+                "cs": {
+                    "totalCS": 112,
+                    "cspm": "6.6"
+                },
+                "items": {
+                    "item1": 1056,
+                    "item2": 3191,
+                    "item3": 1001,
+                    "item4": 3145,
+                    "item5": 1029,
+                    "item6": 1028,
+                    "Item7": 3340
+                }
+            },
+            {
+                "team": 100,
+                "player": "Ardently",
+                "champion": 145,
+                "summonerSpells": {
+                    "spell1": 7,
+                    "spell2": 4
+                },
+                "runes": {
+                    "primaryRune": 9923,
+                    "secondaryRune": 8200
+                },
+                "kda": {
+                    "kills": 2,
+                    "deaths": 5,
+                    "assists": 2,
+                    "kda": "0.80"
+                },
+                "damage": 5446,
+                "wards": 6,
+                "cs": {
+                    "totalCS": 110,
+                    "cspm": "6.5"
+                },
+                "items": {
+                    "item1": 1001,
+                    "item2": 3004,
+                    "item3": 3123,
+                    "item4": 1055,
+                    "item5": 1083,
+                    "item6": 2055,
+                    "Item7": 3340
+                }
+            },
+            {
+                "team": 100,
+                "player": "Nasteey",
+                "champion": 497,
+                "summonerSpells": {
+                    "spell1": 4,
+                    "spell2": 14
+                },
+                "runes": {
+                    "primaryRune": 8465,
+                    "secondaryRune": 8100
+                },
+                "kda": {
+                    "kills": 0,
+                    "deaths": 2,
+                    "assists": 4,
+                    "kda": "2.00"
+                },
+                "damage": 3114,
+                "wards": 12,
+                "cs": {
+                    "totalCS": 24,
+                    "cspm": "1.4"
+                },
+                "items": {
+                    "item1": 3174,
+                    "item2": 3111,
+                    "item3": 3859,
+                    "item4": 0,
+                    "item5": 0,
+                    "item6": 0,
+                    "Item7": 3364
+                }
+            },
+            {
+                "team": 200,
+                "player": "Tsunami Xavi",
+                "champion": 67,
+                "summonerSpells": {
+                    "spell1": 7,
+                    "spell2": 4
+                },
+                "runes": {
+                    "primaryRune": 8005,
+                    "secondaryRune": 8100
+                },
+                "kda": {
+                    "kills": 2,
+                    "deaths": 4,
+                    "assists": 2,
+                    "kda": "1.00"
+                },
+                "damage": 6236,
+                "wards": 7,
+                "cs": {
+                    "totalCS": 110,
+                    "cspm": "6.5"
+                },
+                "items": {
+                    "item1": 3006,
+                    "item2": 3153,
+                    "item3": 1042,
+                    "item4": 2055,
+                    "item5": 0,
+                    "item6": 1054,
+                    "Item7": 3363
+                }
+            },
+            {
+                "team": 200,
+                "player": "nk1",
+                "champion": 28,
+                "summonerSpells": {
+                    "spell1": 11,
+                    "spell2": 4
+                },
+                "runes": {
+                    "primaryRune": 8112,
+                    "secondaryRune": 8300
+                },
+                "kda": {
+                    "kills": 3,
+                    "deaths": 2,
+                    "assists": 2,
+                    "kda": "2.50"
+                },
+                "damage": 5816,
+                "wards": 7,
+                "cs": {
+                    "totalCS": 4,
+                    "cspm": "0.2"
+                },
+                "items": {
+                    "item1": 1402,
+                    "item2": 2031,
+                    "item3": 3041,
+                    "item4": 1058,
+                    "item5": 2422,
+                    "item6": 0,
+                    "Item7": 3340
+                }
+            },
+            {
+                "team": 200,
+                "player": "C9Kiin",
+                "champion": 84,
+                "summonerSpells": {
+                    "spell1": 4,
+                    "spell2": 12
+                },
+                "runes": {
+                    "primaryRune": 8021,
+                    "secondaryRune": 8100
+                },
+                "kda": {
+                    "kills": 6,
+                    "deaths": 1,
+                    "assists": 3,
+                    "kda": "9.00"
+                },
+                "damage": 10589,
+                "wards": 6,
+                "cs": {
+                    "totalCS": 142,
+                    "cspm": "8.4"
+                },
+                "items": {
+                    "item1": 3146,
+                    "item2": 3191,
+                    "item3": 1058,
+                    "item4": 3020,
+                    "item5": 3108,
+                    "item6": 0,
+                    "Item7": 3340
+                }
+            },
+            {
+                "team": 200,
+                "player": "pilling91",
+                "champion": 126,
+                "summonerSpells": {
+                    "spell1": 14,
+                    "spell2": 4
+                },
+                "runes": {
+                    "primaryRune": 8230,
+                    "secondaryRune": 8300
+                },
+                "kda": {
+                    "kills": 6,
+                    "deaths": 1,
+                    "assists": 0,
+                    "kda": "6.00"
+                },
+                "damage": 8202,
+                "wards": 7,
+                "cs": {
+                    "totalCS": 151,
+                    "cspm": "8.9"
+                },
+                "items": {
+                    "item1": 3142,
+                    "item2": 2422,
+                    "item3": 0,
+                    "item4": 3134,
+                    "item5": 1036,
+                    "item6": 1083,
+                    "Item7": 3340
+                }
+            },
+            {
+                "team": 200,
+                "player": "xxxX OuO",
+                "champion": 350,
+                "summonerSpells": {
+                    "spell1": 3,
+                    "spell2": 14
+                },
+                "runes": {
+                    "primaryRune": 8230,
+                    "secondaryRune": 8000
+                },
+                "kda": {
+                    "kills": 1,
+                    "deaths": 1,
+                    "assists": 7,
+                    "kda": "8.00"
+                },
+                "damage": 4234,
+                "wards": 14,
+                "cs": {
+                    "totalCS": 7,
+                    "cspm": "0.4"
+                },
+                "items": {
+                    "item1": 0,
+                    "item2": 3851,
+                    "item3": 1004,
+                    "item4": 3174,
+                    "item5": 1004,
+                    "item6": 0,
+                    "Item7": 3364
+                }
+            }
+        ],
+        "killParticipation": 11
+    },
+    {
+        "gameDuration": {
+            "minutes": 25,
+            "seconds": 49
+        },
+        "gameType": 420,
+        "daysAgo": 11,
+        "winner": {
+            "100": "Fail",
+            "200": "Win"
+        },
+        "win": true,
+        "players": [
+            {
+                "team": 100,
+                "player": "UF yuwu",
+                "champion": 157,
+                "summonerSpells": {
+                    "spell1": 4,
+                    "spell2": 14
+                },
+                "runes": {
+                    "primaryRune": 8010,
+                    "secondaryRune": 8100
+                },
+                "kda": {
+                    "kills": 2,
+                    "deaths": 5,
+                    "assists": 5,
+                    "kda": "1.40"
+                },
+                "damage": 7066,
+                "wards": 9,
+                "cs": {
+                    "totalCS": 173,
+                    "cspm": "6.7"
+                },
+                "items": {
+                    "item1": 3031,
+                    "item2": 3046,
+                    "item3": 3006,
+                    "item4": 0,
+                    "item5": 0,
+                    "item6": 3123,
+                    "Item7": 3340
+                }
+            },
+            {
+                "team": 100,
+                "player": "1azy",
+                "champion": 202,
+                "summonerSpells": {
+                    "spell1": 1,
+                    "spell2": 4
+                },
+                "runes": {
+                    "primaryRune": 8021,
+                    "secondaryRune": 8200
+                },
+                "kda": {
+                    "kills": 6,
+                    "deaths": 3,
+                    "assists": 3,
+                    "kda": "3.00"
+                },
+                "damage": 14110,
+                "wards": 6,
+                "cs": {
+                    "totalCS": 180,
+                    "cspm": "7.0"
+                },
+                "items": {
+                    "item1": 3086,
+                    "item2": 3095,
+                    "item3": 3047,
+                    "item4": 3031,
+                    "item5": 1036,
+                    "item6": 1055,
+                    "Item7": 3363
+                }
+            },
+            {
+                "team": 100,
+                "player": "captaín zero LP",
+                "champion": 25,
+                "summonerSpells": {
+                    "spell1": 14,
+                    "spell2": 4
+                },
+                "runes": {
+                    "primaryRune": 8229,
+                    "secondaryRune": 8300
+                },
+                "kda": {
+                    "kills": 0,
+                    "deaths": 7,
+                    "assists": 12,
+                    "kda": "1.71"
+                },
+                "damage": 8537,
+                "wards": 26,
+                "cs": {
+                    "totalCS": 24,
+                    "cspm": "0.9"
+                },
+                "items": {
+                    "item1": 3853,
+                    "item2": 3157,
+                    "item3": 3801,
+                    "item4": 0,
+                    "item5": 3117,
+                    "item6": 1004,
+                    "Item7": 3364
+                }
+            },
+            {
+                "team": 100,
+                "player": "Innominat",
+                "champion": 876,
+                "summonerSpells": {
+                    "spell1": 11,
+                    "spell2": 4
+                },
+                "runes": {
+                    "primaryRune": 8230,
+                    "secondaryRune": 8100
+                },
+                "kda": {
+                    "kills": 4,
+                    "deaths": 4,
+                    "assists": 7,
+                    "kda": "2.75"
+                },
+                "damage": 13821,
+                "wards": 7,
+                "cs": {
+                    "totalCS": 16,
+                    "cspm": "0.6"
+                },
+                "items": {
+                    "item1": 1402,
+                    "item2": 2031,
+                    "item3": 0,
+                    "item4": 3111,
+                    "item5": 3151,
+                    "item6": 1052,
+                    "Item7": 3364
+                }
+            },
+            {
+                "team": 100,
+                "player": "cJqJsAlma",
+                "champion": 14,
+                "summonerSpells": {
+                    "spell1": 11,
+                    "spell2": 4
+                },
+                "runes": {
+                    "primaryRune": 8437,
+                    "secondaryRune": 8100
+                },
+                "kda": {
+                    "kills": 1,
+                    "deaths": 4,
+                    "assists": 4,
+                    "kda": "1.25"
+                },
+                "damage": 14785,
+                "wards": 6,
+                "cs": {
+                    "totalCS": 167,
+                    "cspm": "6.5"
+                },
+                "items": {
+                    "item1": 3748,
+                    "item2": 3751,
+                    "item3": 3047,
+                    "item4": 3076,
+                    "item5": 1054,
+                    "item6": 0,
+                    "Item7": 3364
+                }
+            },
+            {
+                "team": 200,
+                "player": "Norco1",
+                "champion": 141,
+                "summonerSpells": {
+                    "spell1": 4,
+                    "spell2": 11
+                },
+                "runes": {
+                    "primaryRune": 8010,
+                    "secondaryRune": 8100
+                },
+                "kda": {
+                    "kills": 10,
+                    "deaths": 1,
+                    "assists": 7,
+                    "kda": "17.00"
+                },
+                "damage": 13925,
+                "wards": 4,
+                "cs": {
+                    "totalCS": 14,
+                    "cspm": "0.5"
+                },
+                "items": {
+                    "item1": 1412,
+                    "item2": 0,
+                    "item3": 3047,
+                    "item4": 3071,
+                    "item5": 3812,
+                    "item6": 0,
+                    "Item7": 3364
+                }
+            },
+            {
+                "team": 200,
+                "player": "KoolKidPete",
+                "champion": 235,
+                "summonerSpells": {
+                    "spell1": 4,
+                    "spell2": 7
+                },
+                "runes": {
+                    "primaryRune": 8351,
+                    "secondaryRune": 8000
+                },
+                "kda": {
+                    "kills": 3,
+                    "deaths": 2,
+                    "assists": 14,
+                    "kda": "8.50"
+                },
+                "damage": 14603,
+                "wards": 8,
+                "cs": {
+                    "totalCS": 164,
+                    "cspm": "6.4"
+                },
+                "items": {
+                    "item1": 3147,
+                    "item2": 1055,
+                    "item3": 3042,
+                    "item4": 0,
+                    "item5": 0,
+                    "item6": 3009,
+                    "Item7": 3363
+                }
+            },
+            {
+                "team": 200,
+                "player": "yamatosgf",
+                "champion": 55,
+                "summonerSpells": {
+                    "spell1": 14,
+                    "spell2": 12
+                },
+                "runes": {
+                    "primaryRune": 8112,
+                    "secondaryRune": 8000
+                },
+                "kda": {
+                    "kills": 5,
+                    "deaths": 4,
+                    "assists": 9,
+                    "kda": "3.50"
+                },
+                "damage": 14513,
+                "wards": 7,
+                "cs": {
+                    "totalCS": 167,
+                    "cspm": "6.5"
+                },
+                "items": {
+                    "item1": 3916,
+                    "item2": 3146,
+                    "item3": 3157,
+                    "item4": 3020,
+                    "item5": 0,
+                    "item6": 0,
+                    "Item7": 3340
+                }
+            },
+            {
+                "team": 200,
+                "player": "Chang Yoon",
+                "champion": 89,
+                "summonerSpells": {
+                    "spell1": 4,
+                    "spell2": 14
+                },
+                "runes": {
+                    "primaryRune": 8439,
+                    "secondaryRune": 8300
+                },
+                "kda": {
+                    "kills": 1,
+                    "deaths": 3,
+                    "assists": 15,
+                    "kda": "5.33"
+                },
+                "damage": 4067,
+                "wards": 33,
+                "cs": {
+                    "totalCS": 32,
+                    "cspm": "1.2"
+                },
+                "items": {
+                    "item1": 3860,
+                    "item2": 3193,
+                    "item3": 2055,
+                    "item4": 3801,
+                    "item5": 3117,
+                    "item6": 3114,
+                    "Item7": 3364
+                }
+            },
+            {
+                "team": 200,
+                "player": "one dance",
+                "champion": 164,
+                "summonerSpells": {
+                    "spell1": 4,
+                    "spell2": 12
+                },
+                "runes": {
+                    "primaryRune": 8010,
+                    "secondaryRune": 8300
+                },
+                "kda": {
+                    "kills": 4,
+                    "deaths": 3,
+                    "assists": 5,
+                    "kda": "3.00"
+                },
+                "damage": 8480,
+                "wards": 7,
+                "cs": {
+                    "totalCS": 174,
+                    "cspm": "6.7"
+                },
+                "items": {
+                    "item1": 1055,
+                    "item2": 3078,
+                    "item3": 3074,
+                    "item4": 3047,
+                    "item5": 1053,
+                    "item6": 1055,
+                    "Item7": 3363
+                }
+            }
+        ],
+        "killParticipation": 39
+    },
+    {
+        "gameDuration": {
+            "minutes": 22,
+            "seconds": 58
+        },
+        "gameType": 420,
+        "daysAgo": 11,
+        "winner": {
+            "100": "Fail",
+            "200": "Win"
+        },
+        "win": false,
+        "players": [
+            {
+                "team": 100,
+                "player": "Ethern",
+                "champion": 45,
+                "summonerSpells": {
+                    "spell1": 4,
+                    "spell2": 12
+                },
+                "runes": {
+                    "primaryRune": 8112,
+                    "secondaryRune": 8000
+                },
+                "kda": {
+                    "kills": 4,
+                    "deaths": 7,
+                    "assists": 1,
+                    "kda": "0.71"
+                },
+                "damage": 8553,
+                "wards": 6,
+                "cs": {
+                    "totalCS": 162,
+                    "cspm": "7.1"
+                },
+                "items": {
+                    "item1": 3030,
+                    "item2": 3135,
+                    "item3": 3020,
+                    "item4": 1082,
+                    "item5": 0,
+                    "item6": 1056,
+                    "Item7": 3363
+                }
+            },
+            {
+                "team": 100,
+                "player": "one dance",
+                "champion": 164,
+                "summonerSpells": {
+                    "spell1": 4,
+                    "spell2": 12
+                },
+                "runes": {
+                    "primaryRune": 8010,
+                    "secondaryRune": 8300
+                },
+                "kda": {
+                    "kills": 1,
+                    "deaths": 5,
+                    "assists": 2,
+                    "kda": "0.60"
+                },
+                "damage": 4218,
+                "wards": 6,
+                "cs": {
+                    "totalCS": 138,
+                    "cspm": "6.0"
+                },
+                "items": {
+                    "item1": 1054,
+                    "item2": 2422,
+                    "item3": 3077,
+                    "item4": 1053,
+                    "item5": 0,
+                    "item6": 3078,
+                    "Item7": 3363
+                }
+            },
+            {
+                "team": 100,
+                "player": "cãke",
+                "champion": 432,
+                "summonerSpells": {
+                    "spell1": 14,
+                    "spell2": 4
+                },
+                "runes": {
+                    "primaryRune": 8112,
+                    "secondaryRune": 8000
+                },
+                "kda": {
+                    "kills": 0,
+                    "deaths": 4,
+                    "assists": 5,
+                    "kda": "1.25"
+                },
+                "damage": 4632,
+                "wards": 30,
+                "cs": {
+                    "totalCS": 7,
+                    "cspm": "0.3"
+                },
+                "items": {
+                    "item1": 2055,
+                    "item2": 3851,
+                    "item3": 3136,
+                    "item4": 3117,
+                    "item5": 1026,
+                    "item6": 0,
+                    "Item7": 3364
+                }
+            },
+            {
+                "team": 100,
+                "player": "captaín zero LP",
+                "champion": 51,
+                "summonerSpells": {
+                    "spell1": 7,
+                    "spell2": 4
+                },
+                "runes": {
+                    "primaryRune": 8021,
+                    "secondaryRune": 8200
+                },
+                "kda": {
+                    "kills": 4,
+                    "deaths": 5,
+                    "assists": 1,
+                    "kda": "1.00"
+                },
+                "damage": 5801,
+                "wards": 8,
+                "cs": {
+                    "totalCS": 174,
+                    "cspm": "7.6"
+                },
+                "items": {
+                    "item1": 2003,
+                    "item2": 0,
+                    "item3": 3095,
+                    "item4": 1055,
+                    "item5": 3006,
+                    "item6": 3031,
+                    "Item7": 3363
+                }
+            },
+            {
+                "team": 100,
+                "player": "Innominat",
+                "champion": 98,
+                "summonerSpells": {
+                    "spell1": 11,
+                    "spell2": 4
+                },
+                "runes": {
+                    "primaryRune": 8005,
+                    "secondaryRune": 8100
+                },
+                "kda": {
+                    "kills": 3,
+                    "deaths": 4,
+                    "assists": 3,
+                    "kda": "1.50"
+                },
+                "damage": 5274,
+                "wards": 5,
+                "cs": {
+                    "totalCS": 9,
+                    "cspm": "0.4"
+                },
+                "items": {
+                    "item1": 1401,
+                    "item2": 3067,
+                    "item3": 3190,
+                    "item4": 1029,
+                    "item5": 3111,
+                    "item6": 0,
+                    "Item7": 3364
+                }
+            },
+            {
+                "team": 200,
+                "player": "Poor Mans Rose",
+                "champion": 84,
+                "summonerSpells": {
+                    "spell1": 4,
+                    "spell2": 12
+                },
+                "runes": {
+                    "primaryRune": 8112,
+                    "secondaryRune": 8000
+                },
+                "kda": {
+                    "kills": 7,
+                    "deaths": 4,
+                    "assists": 3,
+                    "kda": "2.50"
+                },
+                "damage": 16211,
+                "wards": 7,
+                "cs": {
+                    "totalCS": 140,
+                    "cspm": "6.1"
+                },
+                "items": {
+                    "item1": 3020,
+                    "item2": 3102,
+                    "item3": 3146,
+                    "item4": 0,
+                    "item5": 0,
+                    "item6": 0,
+                    "Item7": 3340
+                }
+            },
+            {
+                "team": 200,
+                "player": "ChairmanNetero",
+                "champion": 117,
+                "summonerSpells": {
+                    "spell1": 4,
+                    "spell2": 14
+                },
+                "runes": {
+                    "primaryRune": 8465,
+                    "secondaryRune": 8300
+                },
+                "kda": {
+                    "kills": 0,
+                    "deaths": 2,
+                    "assists": 14,
+                    "kda": "7.00"
+                },
+                "damage": 3535,
+                "wards": 21,
+                "cs": {
+                    "totalCS": 30,
+                    "cspm": "1.3"
+                },
+                "items": {
+                    "item1": 2065,
+                    "item2": 3860,
+                    "item3": 3504,
+                    "item4": 3158,
+                    "item5": 1004,
+                    "item6": 1082,
+                    "Item7": 3364
+                }
+            },
+            {
+                "team": 200,
+                "player": "Tsunami Xavi",
+                "champion": 22,
+                "summonerSpells": {
+                    "spell1": 7,
+                    "spell2": 4
+                },
+                "runes": {
+                    "primaryRune": 8008,
+                    "secondaryRune": 8300
+                },
+                "kda": {
+                    "kills": 9,
+                    "deaths": 2,
+                    "assists": 2,
+                    "kda": "5.50"
+                },
+                "damage": 13777,
+                "wards": 10,
+                "cs": {
+                    "totalCS": 176,
+                    "cspm": "7.7"
+                },
+                "items": {
+                    "item1": 3006,
+                    "item2": 2420,
+                    "item3": 3085,
+                    "item4": 1038,
+                    "item5": 3508,
+                    "item6": 1055,
+                    "Item7": 3363
+                }
+            },
+            {
+                "team": 200,
+                "player": "BurritoTrain",
+                "champion": 20,
+                "summonerSpells": {
+                    "spell1": 11,
+                    "spell2": 4
+                },
+                "runes": {
+                    "primaryRune": 8230,
+                    "secondaryRune": 8100
+                },
+                "kda": {
+                    "kills": 5,
+                    "deaths": 0,
+                    "assists": 9,
+                    "kda": "Infinity"
+                },
+                "damage": 7101,
+                "wards": 4,
+                "cs": {
+                    "totalCS": 26,
+                    "cspm": "1.1"
+                },
+                "items": {
+                    "item1": 2055,
+                    "item2": 2420,
+                    "item3": 3111,
+                    "item4": 3742,
+                    "item5": 1401,
+                    "item6": 1057,
+                    "Item7": 3513
+                }
+            },
+            {
+                "team": 200,
+                "player": "Spook618",
+                "champion": 238,
+                "summonerSpells": {
+                    "spell1": 14,
+                    "spell2": 4
+                },
+                "runes": {
+                    "primaryRune": 8112,
+                    "secondaryRune": 8200
+                },
+                "kda": {
+                    "kills": 4,
+                    "deaths": 4,
+                    "assists": 4,
+                    "kda": "2.00"
+                },
+                "damage": 11313,
+                "wards": 7,
+                "cs": {
+                    "totalCS": 194,
+                    "cspm": "8.4"
+                },
+                "items": {
+                    "item1": 2031,
+                    "item2": 3142,
+                    "item3": 3147,
+                    "item4": 3158,
+                    "item5": 1036,
+                    "item6": 1036,
+                    "Item7": 3364
+                }
+            }
+        ],
+        "killParticipation": 25
+    },
+    {
+        "gameDuration": {
+            "minutes": 24,
+            "seconds": 54
+        },
+        "gameType": 420,
+        "daysAgo": 11,
+        "winner": {
+            "100": "Fail",
+            "200": "Win"
+        },
+        "win": false,
+        "players": [
+            {
+                "team": 100,
+                "player": "one dance",
+                "champion": 164,
+                "summonerSpells": {
+                    "spell1": 4,
+                    "spell2": 12
+                },
+                "runes": {
+                    "primaryRune": 8437,
+                    "secondaryRune": 8300
+                },
+                "kda": {
+                    "kills": 1,
+                    "deaths": 7,
+                    "assists": 2,
+                    "kda": "0.43"
+                },
+                "damage": 10090,
+                "wards": 6,
+                "cs": {
+                    "totalCS": 156,
+                    "cspm": "6.3"
+                },
+                "items": {
+                    "item1": 1055,
+                    "item2": 1055,
+                    "item3": 2422,
+                    "item4": 3078,
+                    "item5": 1053,
+                    "item6": 3105,
+                    "Item7": 3340
+                }
+            },
+            {
+                "team": 100,
+                "player": "Aaron Wegter",
+                "champion": 80,
+                "summonerSpells": {
+                    "spell1": 14,
+                    "spell2": 4
+                },
+                "runes": {
+                    "primaryRune": 8010,
+                    "secondaryRune": 8300
+                },
+                "kda": {
+                    "kills": 5,
+                    "deaths": 8,
+                    "assists": 8,
+                    "kda": "1.63"
+                },
+                "damage": 9785,
+                "wards": 23,
+                "cs": {
+                    "totalCS": 32,
+                    "cspm": "1.3"
+                },
+                "items": {
+                    "item1": 2421,
+                    "item2": 3855,
+                    "item3": 3179,
+                    "item4": 3123,
+                    "item5": 3009,
+                    "item6": 1031,
+                    "Item7": 3364
+                }
+            },
+            {
+                "team": 100,
+                "player": "KAYLE OTP BABY",
+                "champion": 202,
+                "summonerSpells": {
+                    "spell1": 7,
+                    "spell2": 4
+                },
+                "runes": {
+                    "primaryRune": 8021,
+                    "secondaryRune": 8200
+                },
+                "kda": {
+                    "kills": 5,
+                    "deaths": 3,
+                    "assists": 9,
+                    "kda": "4.67"
+                },
+                "damage": 11906,
+                "wards": 11,
+                "cs": {
+                    "totalCS": 169,
+                    "cspm": "6.8"
+                },
+                "items": {
+                    "item1": 2055,
+                    "item2": 3031,
+                    "item3": 3042,
+                    "item4": 3006,
+                    "item5": 1036,
+                    "item6": 3086,
+                    "Item7": 3363
+                }
+            },
+            {
+                "team": 100,
+                "player": "Pohi",
+                "champion": 20,
+                "summonerSpells": {
+                    "spell1": 11,
+                    "spell2": 4
+                },
+                "runes": {
+                    "primaryRune": 8230,
+                    "secondaryRune": 8000
+                },
+                "kda": {
+                    "kills": 2,
+                    "deaths": 8,
+                    "assists": 12,
+                    "kda": "1.75"
+                },
+                "damage": 6380,
+                "wards": 2,
+                "cs": {
+                    "totalCS": 12,
+                    "cspm": "0.5"
+                },
+                "items": {
+                    "item1": 1413,
+                    "item2": 2055,
+                    "item3": 3193,
+                    "item4": 3111,
+                    "item5": 1033,
+                    "item6": 1028,
+                    "Item7": 3364
+                }
+            },
+            {
+                "team": 100,
+                "player": "Defstruction",
+                "champion": 61,
+                "summonerSpells": {
+                    "spell1": 4,
+                    "spell2": 12
+                },
+                "runes": {
+                    "primaryRune": 8230,
+                    "secondaryRune": 8300
+                },
+                "kda": {
+                    "kills": 5,
+                    "deaths": 5,
+                    "assists": 6,
+                    "kda": "2.20"
+                },
+                "damage": 14021,
+                "wards": 10,
+                "cs": {
+                    "totalCS": 182,
+                    "cspm": "7.3"
+                },
+                "items": {
+                    "item1": 3040,
+                    "item2": 3157,
+                    "item3": 3041,
+                    "item4": 0,
+                    "item5": 3111,
+                    "item6": 0,
+                    "Item7": 3363
+                }
+            },
+            {
+                "team": 200,
+                "player": "gerogeEzreal",
+                "champion": 3,
+                "summonerSpells": {
+                    "spell1": 4,
+                    "spell2": 12
+                },
+                "runes": {
+                    "primaryRune": 8439,
+                    "secondaryRune": 8200
+                },
+                "kda": {
+                    "kills": 4,
+                    "deaths": 2,
+                    "assists": 9,
+                    "kda": "6.50"
+                },
+                "damage": 11066,
+                "wards": 7,
+                "cs": {
+                    "totalCS": 184,
+                    "cspm": "7.4"
+                },
+                "items": {
+                    "item1": 3152,
+                    "item2": 3041,
+                    "item3": 3089,
+                    "item4": 3047,
+                    "item5": 1029,
+                    "item6": 0,
+                    "Item7": 3364
+                }
+            },
+            {
+                "team": 200,
+                "player": "Mekhio",
+                "champion": 58,
+                "summonerSpells": {
+                    "spell1": 4,
+                    "spell2": 12
+                },
+                "runes": {
+                    "primaryRune": 8005,
+                    "secondaryRune": 8400
+                },
+                "kda": {
+                    "kills": 9,
+                    "deaths": 1,
+                    "assists": 6,
+                    "kda": "15.00"
+                },
+                "damage": 17142,
+                "wards": 8,
+                "cs": {
+                    "totalCS": 176,
+                    "cspm": "7.1"
+                },
+                "items": {
+                    "item1": 3812,
+                    "item2": 3153,
+                    "item3": 3071,
+                    "item4": 3047,
+                    "item5": 3067,
+                    "item6": 0,
+                    "Item7": 3340
+                }
+            },
+            {
+                "team": 200,
+                "player": "Clairvoyancey",
+                "champion": 876,
+                "summonerSpells": {
+                    "spell1": 11,
+                    "spell2": 4
+                },
+                "runes": {
+                    "primaryRune": 8230,
+                    "secondaryRune": 8100
+                },
+                "kda": {
+                    "kills": 11,
+                    "deaths": 4,
+                    "assists": 12,
+                    "kda": "5.75"
+                },
+                "damage": 20437,
+                "wards": 5,
+                "cs": {
+                    "totalCS": 20,
+                    "cspm": "0.8"
+                },
+                "items": {
+                    "item1": 1402,
+                    "item2": 3151,
+                    "item3": 3742,
+                    "item4": 3211,
+                    "item5": 3067,
+                    "item6": 3047,
+                    "Item7": 3364
+                }
+            },
+            {
+                "team": 200,
+                "player": "Gosha Rubchinsky",
+                "champion": 89,
+                "summonerSpells": {
+                    "spell1": 4,
+                    "spell2": 14
+                },
+                "runes": {
+                    "primaryRune": 8439,
+                    "secondaryRune": 8300
+                },
+                "kda": {
+                    "kills": 3,
+                    "deaths": 6,
+                    "assists": 12,
+                    "kda": "2.50"
+                },
+                "damage": 5616,
+                "wards": 25,
+                "cs": {
+                    "totalCS": 29,
+                    "cspm": "1.2"
+                },
+                "items": {
+                    "item1": 3190,
+                    "item2": 3857,
+                    "item3": 3117,
+                    "item4": 3109,
+                    "item5": 0,
+                    "item6": 2055,
+                    "Item7": 3364
+                }
+            },
+            {
+                "team": 200,
+                "player": "ABCDEFGHiJKLMAO",
+                "champion": 119,
+                "summonerSpells": {
+                    "spell1": 4,
+                    "spell2": 7
+                },
+                "runes": {
+                    "primaryRune": 8005,
+                    "secondaryRune": 8200
+                },
+                "kda": {
+                    "kills": 4,
+                    "deaths": 5,
+                    "assists": 9,
+                    "kda": "2.60"
+                },
+                "damage": 11519,
+                "wards": 9,
+                "cs": {
+                    "totalCS": 147,
+                    "cspm": "5.9"
+                },
+                "items": {
+                    "item1": 3072,
+                    "item2": 1037,
+                    "item3": 3006,
+                    "item4": 1055,
+                    "item5": 1038,
+                    "item6": 0,
+                    "Item7": 3363
+                }
+            }
+        ],
+        "killParticipation": 16
+    },
+    {
+        "gameDuration": {
+            "minutes": 28,
+            "seconds": 33
+        },
+        "gameType": 420,
+        "daysAgo": 11,
+        "winner": {
+            "100": "Win",
+            "200": "Fail"
+        },
+        "win": false,
+        "players": [
+            {
+                "team": 100,
+                "player": "MaplestoryGMS",
+                "champion": 114,
+                "summonerSpells": {
+                    "spell1": 4,
+                    "spell2": 12
+                },
+                "runes": {
+                    "primaryRune": 8010,
+                    "secondaryRune": 8300
+                },
+                "kda": {
+                    "kills": 6,
+                    "deaths": 7,
+                    "assists": 3,
+                    "kda": "1.29"
+                },
+                "damage": 21124,
+                "wards": 10,
+                "cs": {
+                    "totalCS": 153,
+                    "cspm": "5.4"
+                },
+                "items": {
+                    "item1": 3074,
+                    "item2": 3078,
+                    "item3": 3123,
+                    "item4": 1029,
+                    "item5": 1036,
+                    "item6": 3047,
+                    "Item7": 3340
+                }
+            },
+            {
+                "team": 100,
+                "player": "Namdur",
+                "champion": 61,
+                "summonerSpells": {
+                    "spell1": 12,
+                    "spell2": 4
+                },
+                "runes": {
+                    "primaryRune": 8230,
+                    "secondaryRune": 8100
+                },
+                "kda": {
+                    "kills": 1,
+                    "deaths": 4,
+                    "assists": 8,
+                    "kda": "2.25"
+                },
+                "damage": 10777,
+                "wards": 12,
+                "cs": {
+                    "totalCS": 171,
+                    "cspm": "6.0"
+                },
+                "items": {
+                    "item1": 3030,
+                    "item2": 1056,
+                    "item3": 3020,
+                    "item4": 3165,
+                    "item5": 3108,
+                    "item6": 0,
+                    "Item7": 3340
+                }
+            },
+            {
+                "team": 100,
+                "player": "Twocutz",
+                "champion": 53,
+                "summonerSpells": {
+                    "spell1": 14,
+                    "spell2": 4
+                },
+                "runes": {
+                    "primaryRune": 8439,
+                    "secondaryRune": 8300
+                },
+                "kda": {
+                    "kills": 1,
+                    "deaths": 4,
+                    "assists": 12,
+                    "kda": "3.25"
+                },
+                "damage": 6557,
+                "wards": 46,
+                "cs": {
+                    "totalCS": 31,
+                    "cspm": "1.1"
+                },
+                "items": {
+                    "item1": 3107,
+                    "item2": 3857,
+                    "item3": 3193,
+                    "item4": 0,
+                    "item5": 0,
+                    "item6": 3117,
+                    "Item7": 3364
+                }
+            },
+            {
+                "team": 100,
+                "player": "Gatech Jungle",
+                "champion": 102,
+                "summonerSpells": {
+                    "spell1": 11,
+                    "spell2": 4
+                },
+                "runes": {
+                    "primaryRune": 8128,
+                    "secondaryRune": 8300
+                },
+                "kda": {
+                    "kills": 11,
+                    "deaths": 3,
+                    "assists": 3,
+                    "kda": "4.67"
+                },
+                "damage": 17327,
+                "wards": 5,
+                "cs": {
+                    "totalCS": 54,
+                    "cspm": "1.9"
+                },
+                "items": {
+                    "item1": 1402,
+                    "item2": 3089,
+                    "item3": 3115,
+                    "item4": 2055,
+                    "item5": 3165,
+                    "item6": 3020,
+                    "Item7": 3364
+                }
+            },
+            {
+                "team": 100,
+                "player": "NaperviIIe IL",
+                "champion": 236,
+                "summonerSpells": {
+                    "spell1": 1,
+                    "spell2": 4
+                },
+                "runes": {
+                    "primaryRune": 8005,
+                    "secondaryRune": 8300
+                },
+                "kda": {
+                    "kills": 8,
+                    "deaths": 4,
+                    "assists": 6,
+                    "kda": "3.50"
+                },
+                "damage": 19797,
+                "wards": 12,
+                "cs": {
+                    "totalCS": 223,
+                    "cspm": "7.8"
+                },
+                "items": {
+                    "item1": 1055,
+                    "item2": 3158,
+                    "item3": 3031,
+                    "item4": 3508,
+                    "item5": 3095,
+                    "item6": 0,
+                    "Item7": 3363
+                }
+            },
+            {
+                "team": 200,
+                "player": "XxKaynMainxX",
+                "champion": 104,
+                "summonerSpells": {
+                    "spell1": 11,
+                    "spell2": 4
+                },
+                "runes": {
+                    "primaryRune": 8230,
+                    "secondaryRune": 8000
+                },
+                "kda": {
+                    "kills": 2,
+                    "deaths": 7,
+                    "assists": 6,
+                    "kda": "1.14"
+                },
+                "damage": 15444,
+                "wards": 4,
+                "cs": {
+                    "totalCS": 64,
+                    "cspm": "2.2"
+                },
+                "items": {
+                    "item1": 1412,
+                    "item2": 3179,
+                    "item3": 3134,
+                    "item4": 3111,
+                    "item5": 1036,
+                    "item6": 1037,
+                    "Item7": 3364
+                }
+            },
+            {
+                "team": 200,
+                "player": "K3v1nRul3s",
+                "champion": 8,
+                "summonerSpells": {
+                    "spell1": 14,
+                    "spell2": 4
+                },
+                "runes": {
+                    "primaryRune": 8230,
+                    "secondaryRune": 8300
+                },
+                "kda": {
+                    "kills": 6,
+                    "deaths": 2,
+                    "assists": 1,
+                    "kda": "3.50"
+                },
+                "damage": 19026,
+                "wards": 11,
+                "cs": {
+                    "totalCS": 221,
+                    "cspm": "7.7"
+                },
+                "items": {
+                    "item1": 3907,
+                    "item2": 3157,
+                    "item3": 3020,
+                    "item4": 0,
+                    "item5": 3089,
+                    "item6": 1054,
+                    "Item7": 3363
+                }
+            },
+            {
+                "team": 200,
+                "player": "Khuz",
+                "champion": 22,
+                "summonerSpells": {
+                    "spell1": 7,
+                    "spell2": 4
+                },
+                "runes": {
+                    "primaryRune": 8008,
+                    "secondaryRune": 8300
+                },
+                "kda": {
+                    "kills": 6,
+                    "deaths": 7,
+                    "assists": 7,
+                    "kda": "1.86"
+                },
+                "damage": 15739,
+                "wards": 11,
+                "cs": {
+                    "totalCS": 170,
+                    "cspm": "6.0"
+                },
+                "items": {
+                    "item1": 3006,
+                    "item2": 3085,
+                    "item3": 3031,
+                    "item4": 3153,
+                    "item5": 1083,
+                    "item6": 1018,
+                    "Item7": 3363
+                }
+            },
+            {
+                "team": 200,
+                "player": "one dance",
+                "champion": 164,
+                "summonerSpells": {
+                    "spell1": 4,
+                    "spell2": 12
+                },
+                "runes": {
+                    "primaryRune": 8437,
+                    "secondaryRune": 8300
+                },
+                "kda": {
+                    "kills": 5,
+                    "deaths": 8,
+                    "assists": 4,
+                    "kda": "1.13"
+                },
+                "damage": 18271,
+                "wards": 6,
+                "cs": {
+                    "totalCS": 181,
+                    "cspm": "6.3"
+                },
+                "items": {
+                    "item1": 3078,
+                    "item2": 3047,
+                    "item3": 3074,
+                    "item4": 3123,
+                    "item5": 1036,
+                    "item6": 1029,
+                    "Item7": 3340
+                }
+            },
+            {
+                "team": 200,
+                "player": "swiftpaw95",
+                "champion": 350,
+                "summonerSpells": {
+                    "spell1": 3,
+                    "spell2": 14
+                },
+                "runes": {
+                    "primaryRune": 8214,
+                    "secondaryRune": 8000
+                },
+                "kda": {
+                    "kills": 3,
+                    "deaths": 3,
+                    "assists": 12,
+                    "kda": "5.00"
+                },
+                "damage": 9514,
+                "wards": 16,
+                "cs": {
+                    "totalCS": 13,
+                    "cspm": "0.5"
+                },
+                "items": {
+                    "item1": 3504,
+                    "item2": 3853,
+                    "item3": 1082,
+                    "item4": 3174,
+                    "item5": 3114,
+                    "item6": 3801,
+                    "Item7": 3364
+                }
+            }
+        ],
+        "killParticipation": 40
+    },
+    {
+        "gameDuration": {
+            "minutes": 26,
+            "seconds": 19
+        },
+        "gameType": 420,
+        "daysAgo": 11,
+        "winner": {
+            "100": "Fail",
+            "200": "Win"
+        },
+        "win": false,
+        "players": [
+            {
+                "team": 100,
+                "player": "j71101",
+                "champion": 412,
+                "summonerSpells": {
+                    "spell1": 14,
+                    "spell2": 4
+                },
+                "runes": {
+                    "primaryRune": 8439,
+                    "secondaryRune": 8300
+                },
+                "kda": {
+                    "kills": 2,
+                    "deaths": 9,
+                    "assists": 9,
+                    "kda": "1.22"
+                },
+                "damage": 6234,
+                "wards": 15,
+                "cs": {
+                    "totalCS": 24,
+                    "cspm": "0.9"
+                },
+                "items": {
+                    "item1": 3857,
+                    "item2": 3193,
+                    "item3": 3067,
+                    "item4": 3117,
+                    "item5": 3801,
+                    "item6": 0,
+                    "Item7": 3364
+                }
+            },
+            {
+                "team": 100,
+                "player": "prismalfan22",
+                "champion": 876,
+                "summonerSpells": {
+                    "spell1": 4,
+                    "spell2": 11
+                },
+                "runes": {
+                    "primaryRune": 8128,
+                    "secondaryRune": 8200
+                },
+                "kda": {
+                    "kills": 7,
+                    "deaths": 8,
+                    "assists": 5,
+                    "kda": "1.50"
+                },
+                "damage": 16401,
+                "wards": 6,
+                "cs": {
+                    "totalCS": 54,
+                    "cspm": "2.1"
+                },
+                "items": {
+                    "item1": 1402,
+                    "item2": 3151,
+                    "item3": 3047,
+                    "item4": 1031,
+                    "item5": 1011,
+                    "item6": 2055,
+                    "Item7": 3364
+                }
+            },
+            {
+                "team": 100,
+                "player": "Tribute to a Kin",
+                "champion": 142,
+                "summonerSpells": {
+                    "spell1": 4,
+                    "spell2": 14
+                },
+                "runes": {
+                    "primaryRune": 8112,
+                    "secondaryRune": 8300
+                },
+                "kda": {
+                    "kills": 8,
+                    "deaths": 8,
+                    "assists": 3,
+                    "kda": "1.38"
+                },
+                "damage": 16785,
+                "wards": 9,
+                "cs": {
+                    "totalCS": 134,
+                    "cspm": "5.1"
+                },
+                "items": {
+                    "item1": 3285,
+                    "item2": 2033,
+                    "item3": 3089,
+                    "item4": 3020,
+                    "item5": 3108,
+                    "item6": 0,
+                    "Item7": 3363
+                }
+            },
+            {
+                "team": 100,
+                "player": "one dance",
+                "champion": 39,
+                "summonerSpells": {
+                    "spell1": 4,
+                    "spell2": 12
+                },
+                "runes": {
+                    "primaryRune": 8010,
+                    "secondaryRune": 8300
+                },
+                "kda": {
+                    "kills": 7,
+                    "deaths": 12,
+                    "assists": 3,
+                    "kda": "0.83"
+                },
+                "damage": 17471,
+                "wards": 7,
+                "cs": {
+                    "totalCS": 166,
+                    "cspm": "6.3"
+                },
+                "items": {
+                    "item1": 2033,
+                    "item2": 3047,
+                    "item3": 3153,
+                    "item4": 3812,
+                    "item5": 3052,
+                    "item6": 1028,
+                    "Item7": 3340
+                }
+            },
+            {
+                "team": 100,
+                "player": "057",
+                "champion": 235,
+                "summonerSpells": {
+                    "spell1": 4,
+                    "spell2": 7
+                },
+                "runes": {
+                    "primaryRune": 8351,
+                    "secondaryRune": 8000
+                },
+                "kda": {
+                    "kills": 1,
+                    "deaths": 6,
+                    "assists": 11,
+                    "kda": "2.00"
+                },
+                "damage": 13413,
+                "wards": 10,
+                "cs": {
+                    "totalCS": 137,
+                    "cspm": "5.2"
+                },
+                "items": {
+                    "item1": 2015,
+                    "item2": 3042,
+                    "item3": 3009,
+                    "item4": 3147,
+                    "item5": 3086,
+                    "item6": 0,
+                    "Item7": 3363
+                }
+            },
+            {
+                "team": 200,
+                "player": "TTizzle830",
+                "champion": 117,
+                "summonerSpells": {
+                    "spell1": 4,
+                    "spell2": 7
+                },
+                "runes": {
+                    "primaryRune": 8214,
+                    "secondaryRune": 8300
+                },
+                "kda": {
+                    "kills": 1,
+                    "deaths": 4,
+                    "assists": 20,
+                    "kda": "5.25"
+                },
+                "damage": 5309,
+                "wards": 21,
+                "cs": {
+                    "totalCS": 29,
+                    "cspm": "1.1"
+                },
+                "items": {
+                    "item1": 3860,
+                    "item2": 3222,
+                    "item3": 2055,
+                    "item4": 3117,
+                    "item5": 3114,
+                    "item6": 3504,
+                    "Item7": 3364
+                }
+            },
+            {
+                "team": 200,
+                "player": "YOU ARE SO BAD",
+                "champion": 164,
+                "summonerSpells": {
+                    "spell1": 4,
+                    "spell2": 12
+                },
+                "runes": {
+                    "primaryRune": 8010,
+                    "secondaryRune": 8400
+                },
+                "kda": {
+                    "kills": 20,
+                    "deaths": 9,
+                    "assists": 8,
+                    "kda": "3.11"
+                },
+                "damage": 38340,
+                "wards": 4,
+                "cs": {
+                    "totalCS": 118,
+                    "cspm": "4.5"
+                },
+                "items": {
+                    "item1": 3047,
+                    "item2": 3074,
+                    "item3": 2420,
+                    "item4": 3812,
+                    "item5": 3078,
+                    "item6": 0,
+                    "Item7": 3364
+                }
+            },
+            {
+                "team": 200,
+                "player": "EU Blue",
+                "champion": 81,
+                "summonerSpells": {
+                    "spell1": 4,
+                    "spell2": 1
+                },
+                "runes": {
+                    "primaryRune": 8010,
+                    "secondaryRune": 8300
+                },
+                "kda": {
+                    "kills": 10,
+                    "deaths": 6,
+                    "assists": 3,
+                    "kda": "2.17"
+                },
+                "damage": 24535,
+                "wards": 9,
+                "cs": {
+                    "totalCS": 181,
+                    "cspm": "6.9"
+                },
+                "items": {
+                    "item1": 3812,
+                    "item2": 3140,
+                    "item3": 3078,
+                    "item4": 2055,
+                    "item5": 3158,
+                    "item6": 3042,
+                    "Item7": 3363
+                }
+            },
+            {
+                "team": 200,
+                "player": "Spawn1",
+                "champion": 7,
+                "summonerSpells": {
+                    "spell1": 4,
+                    "spell2": 14
+                },
+                "runes": {
+                    "primaryRune": 8112,
+                    "secondaryRune": 8200
+                },
+                "kda": {
+                    "kills": 5,
+                    "deaths": 3,
+                    "assists": 12,
+                    "kda": "5.67"
+                },
+                "damage": 12638,
+                "wards": 7,
+                "cs": {
+                    "totalCS": 127,
+                    "cspm": "4.8"
+                },
+                "items": {
+                    "item1": 3135,
+                    "item2": 1056,
+                    "item3": 0,
+                    "item4": 3111,
+                    "item5": 1056,
+                    "item6": 3285,
+                    "Item7": 3364
+                }
+            },
+            {
+                "team": 200,
+                "player": "IMT Potluck",
+                "champion": 104,
+                "summonerSpells": {
+                    "spell1": 11,
+                    "spell2": 4
+                },
+                "runes": {
+                    "primaryRune": 8021,
+                    "secondaryRune": 8300
+                },
+                "kda": {
+                    "kills": 6,
+                    "deaths": 3,
+                    "assists": 16,
+                    "kda": "7.33"
+                },
+                "damage": 18482,
+                "wards": 8,
+                "cs": {
+                    "totalCS": 65,
+                    "cspm": "2.5"
+                },
+                "items": {
+                    "item1": 1412,
+                    "item2": 3179,
+                    "item3": 3814,
+                    "item4": 3111,
+                    "item5": 2055,
+                    "item6": 3134,
+                    "Item7": 3364
+                }
+            }
+        ],
+        "killParticipation": 40
+    },
+    {
+        "gameDuration": {
+            "minutes": 17,
+            "seconds": 37
+        },
+        "gameType": 420,
+        "daysAgo": 11,
+        "winner": {
+            "100": "Fail",
+            "200": "Win"
+        },
+        "win": false,
+        "players": [
+            {
+                "team": 100,
+                "player": "i love people",
+                "champion": 202,
+                "summonerSpells": {
+                    "spell1": 1,
+                    "spell2": 4
+                },
+                "runes": {
+                    "primaryRune": 8021,
+                    "secondaryRune": 8200
+                },
+                "kda": {
+                    "kills": 2,
+                    "deaths": 7,
+                    "assists": 5,
+                    "kda": "1.00"
+                },
+                "damage": 5762,
+                "wards": 6,
+                "cs": {
+                    "totalCS": 98,
+                    "cspm": "5.6"
+                },
+                "items": {
+                    "item1": 3031,
+                    "item2": 1042,
+                    "item3": 0,
+                    "item4": 1083,
+                    "item5": 1055,
+                    "item6": 3009,
+                    "Item7": 3340
+                }
+            },
+            {
+                "team": 100,
+                "player": "woxintaichaohao",
+                "champion": 246,
+                "summonerSpells": {
+                    "spell1": 4,
+                    "spell2": 14
+                },
+                "runes": {
+                    "primaryRune": 8010,
+                    "secondaryRune": 8100
+                },
+                "kda": {
+                    "kills": 5,
+                    "deaths": 8,
+                    "assists": 2,
+                    "kda": "0.88"
+                },
+                "damage": 7850,
+                "wards": 3,
+                "cs": {
+                    "totalCS": 95,
+                    "cspm": "5.4"
+                },
+                "items": {
+                    "item1": 2031,
+                    "item2": 3077,
+                    "item3": 3009,
+                    "item4": 3147,
+                    "item5": 1036,
+                    "item6": 1036,
+                    "Item7": 3364
+                }
+            },
+            {
+                "team": 100,
+                "player": "CY Blood",
+                "champion": 9,
+                "summonerSpells": {
+                    "spell1": 4,
+                    "spell2": 11
+                },
+                "runes": {
+                    "primaryRune": 8112,
+                    "secondaryRune": 8200
+                },
+                "kda": {
+                    "kills": 1,
+                    "deaths": 5,
+                    "assists": 5,
+                    "kda": "1.20"
+                },
+                "damage": 5376,
+                "wards": 2,
+                "cs": {
+                    "totalCS": 23,
+                    "cspm": "1.3"
+                },
+                "items": {
+                    "item1": 1402,
+                    "item2": 2421,
+                    "item3": 1082,
+                    "item4": 3020,
+                    "item5": 3108,
+                    "item6": 2055,
+                    "Item7": 3330
+                }
+            },
+            {
+                "team": 100,
+                "player": "Trixxie",
+                "champion": 875,
+                "summonerSpells": {
+                    "spell1": 14,
+                    "spell2": 4
+                },
+                "runes": {
+                    "primaryRune": 8439,
+                    "secondaryRune": 8000
+                },
+                "kda": {
+                    "kills": 3,
+                    "deaths": 8,
+                    "assists": 4,
+                    "kda": "0.88"
+                },
+                "damage": 6803,
+                "wards": 11,
+                "cs": {
+                    "totalCS": 22,
+                    "cspm": "1.2"
+                },
+                "items": {
+                    "item1": 3109,
+                    "item2": 3047,
+                    "item3": 0,
+                    "item4": 0,
+                    "item5": 3855,
+                    "item6": 3024,
+                    "Item7": 3364
+                }
+            },
+            {
+                "team": 100,
+                "player": "one dance",
+                "champion": 164,
+                "summonerSpells": {
+                    "spell1": 4,
+                    "spell2": 12
+                },
+                "runes": {
+                    "primaryRune": 8010,
+                    "secondaryRune": 8300
+                },
+                "kda": {
+                    "kills": 3,
+                    "deaths": 4,
+                    "assists": 3,
+                    "kda": "1.50"
+                },
+                "damage": 6565,
+                "wards": 2,
+                "cs": {
+                    "totalCS": 105,
+                    "cspm": "6.0"
+                },
+                "items": {
+                    "item1": 1054,
+                    "item2": 3078,
+                    "item3": 3077,
+                    "item4": 3047,
+                    "item5": 1036,
+                    "item6": 0,
+                    "Item7": 3340
+                }
+            },
+            {
+                "team": 200,
+                "player": "You Are Tragic",
+                "champion": 254,
+                "summonerSpells": {
+                    "spell1": 11,
+                    "spell2": 4
+                },
+                "runes": {
+                    "primaryRune": 9923,
+                    "secondaryRune": 8000
+                },
+                "kda": {
+                    "kills": 7,
+                    "deaths": 4,
+                    "assists": 10,
+                    "kda": "4.25"
+                },
+                "damage": 9212,
+                "wards": 1,
+                "cs": {
+                    "totalCS": 8,
+                    "cspm": "0.5"
+                },
+                "items": {
+                    "item1": 1400,
+                    "item2": 2031,
+                    "item3": 3047,
+                    "item4": 3078,
+                    "item5": 1028,
+                    "item6": 1029,
+                    "Item7": 3364
+                }
+            },
+            {
+                "team": 200,
+                "player": "TSM Ablaze",
+                "champion": 236,
+                "summonerSpells": {
+                    "spell1": 4,
+                    "spell2": 1
+                },
+                "runes": {
+                    "primaryRune": 8005,
+                    "secondaryRune": 8300
+                },
+                "kda": {
+                    "kills": 6,
+                    "deaths": 2,
+                    "assists": 9,
+                    "kda": "7.50"
+                },
+                "damage": 9441,
+                "wards": 5,
+                "cs": {
+                    "totalCS": 130,
+                    "cspm": "7.4"
+                },
+                "items": {
+                    "item1": 3006,
+                    "item2": 3004,
+                    "item3": 1055,
+                    "item4": 1036,
+                    "item5": 1083,
+                    "item6": 1038,
+                    "Item7": 3340
+                }
+            },
+            {
+                "team": 200,
+                "player": "Arrogànt",
+                "champion": 84,
+                "summonerSpells": {
+                    "spell1": 12,
+                    "spell2": 4
+                },
+                "runes": {
+                    "primaryRune": 8021,
+                    "secondaryRune": 8100
+                },
+                "kda": {
+                    "kills": 1,
+                    "deaths": 5,
+                    "assists": 5,
+                    "kda": "1.20"
+                },
+                "damage": 6387,
+                "wards": 7,
+                "cs": {
+                    "totalCS": 106,
+                    "cspm": "6.0"
+                },
+                "items": {
+                    "item1": 3020,
+                    "item2": 1052,
+                    "item3": 3146,
+                    "item4": 0,
+                    "item5": 0,
+                    "item6": 0,
+                    "Item7": 3363
+                }
+            },
+            {
+                "team": 200,
+                "player": "Vialixct",
+                "champion": 777,
+                "summonerSpells": {
+                    "spell1": 14,
+                    "spell2": 4
+                },
+                "runes": {
+                    "primaryRune": 8010,
+                    "secondaryRune": 8100
+                },
+                "kda": {
+                    "kills": 17,
+                    "deaths": 1,
+                    "assists": 13,
+                    "kda": "30.00"
+                },
+                "damage": 28425,
+                "wards": 4,
+                "cs": {
+                    "totalCS": 143,
+                    "cspm": "8.1"
+                },
+                "items": {
+                    "item1": 1055,
+                    "item2": 3006,
+                    "item3": 3087,
+                    "item4": 3031,
+                    "item5": 1053,
+                    "item6": 3105,
+                    "Item7": 3340
+                }
+            },
+            {
+                "team": 200,
+                "player": "Gosha Rubchinsky",
+                "champion": 89,
+                "summonerSpells": {
+                    "spell1": 4,
+                    "spell2": 3
+                },
+                "runes": {
+                    "primaryRune": 8439,
+                    "secondaryRune": 8300
+                },
+                "kda": {
+                    "kills": 1,
+                    "deaths": 2,
+                    "assists": 9,
+                    "kda": "5.00"
+                },
+                "damage": 2985,
+                "wards": 13,
+                "cs": {
+                    "totalCS": 14,
+                    "cspm": "0.8"
+                },
+                "items": {
+                    "item1": 3190,
+                    "item2": 3855,
+                    "item3": 1004,
+                    "item4": 3801,
+                    "item5": 3117,
+                    "item6": 1004,
+                    "Item7": 3364
+                }
+            }
+        ],
+        "killParticipation": 42
+    },
+    {
+        "gameDuration": {
+            "minutes": 15,
+            "seconds": 22
+        },
+        "gameType": 420,
+        "daysAgo": 12,
+        "winner": {
+            "100": "Win",
+            "200": "Fail"
+        },
+        "win": false,
+        "players": [
+            {
+                "team": 100,
+                "player": "Sneeze239",
+                "champion": 39,
+                "summonerSpells": {
+                    "spell1": 4,
+                    "spell2": 12
+                },
+                "runes": {
+                    "primaryRune": 8010,
+                    "secondaryRune": 8300
+                },
+                "kda": {
+                    "kills": 4,
+                    "deaths": 2,
+                    "assists": 2,
+                    "kda": "3.00"
+                },
+                "damage": 6708,
+                "wards": 6,
+                "cs": {
+                    "totalCS": 124,
+                    "cspm": "8.1"
+                },
+                "items": {
+                    "item1": 2033,
+                    "item2": 3077,
+                    "item3": 3078,
+                    "item4": 1029,
+                    "item5": 0,
+                    "item6": 1001,
+                    "Item7": 3363
+                }
+            },
+            {
+                "team": 100,
+                "player": "candyfloss",
+                "champion": 28,
+                "summonerSpells": {
+                    "spell1": 4,
+                    "spell2": 11
+                },
+                "runes": {
+                    "primaryRune": 8112,
+                    "secondaryRune": 8300
+                },
+                "kda": {
+                    "kills": 9,
+                    "deaths": 0,
+                    "assists": 3,
+                    "kda": "Infinity"
+                },
+                "damage": 7777,
+                "wards": 2,
+                "cs": {
+                    "totalCS": 14,
+                    "cspm": "0.9"
+                },
+                "items": {
+                    "item1": 1402,
+                    "item2": 2031,
+                    "item3": 1058,
+                    "item4": 1052,
+                    "item5": 3020,
+                    "item6": 3041,
+                    "Item7": 3364
+                }
+            },
+            {
+                "team": 100,
+                "player": "Inumerable",
+                "champion": 142,
+                "summonerSpells": {
+                    "spell1": 14,
+                    "spell2": 4
+                },
+                "runes": {
+                    "primaryRune": 8214,
+                    "secondaryRune": 8300
+                },
+                "kda": {
+                    "kills": 2,
+                    "deaths": 1,
+                    "assists": 5,
+                    "kda": "7.00"
+                },
+                "damage": 7908,
+                "wards": 7,
+                "cs": {
+                    "totalCS": 88,
+                    "cspm": "5.7"
+                },
+                "items": {
+                    "item1": 3285,
+                    "item2": 1056,
+                    "item3": 2031,
+                    "item4": 0,
+                    "item5": 0,
+                    "item6": 2422,
+                    "Item7": 3340
+                }
+            },
+            {
+                "team": 100,
+                "player": "Galaxy Smash",
+                "champion": 157,
+                "summonerSpells": {
+                    "spell1": 4,
+                    "spell2": 14
+                },
+                "runes": {
+                    "primaryRune": 8010,
+                    "secondaryRune": 8100
+                },
+                "kda": {
+                    "kills": 5,
+                    "deaths": 3,
+                    "assists": 4,
+                    "kda": "3.00"
+                },
+                "damage": 9570,
+                "wards": 5,
+                "cs": {
+                    "totalCS": 95,
+                    "cspm": "6.2"
+                },
+                "items": {
+                    "item1": 3046,
+                    "item2": 1055,
+                    "item3": 3006,
+                    "item4": 1018,
+                    "item5": 1038,
+                    "item6": 0,
+                    "Item7": 3340
+                }
+            },
+            {
+                "team": 100,
+                "player": "Sho Exotic ",
+                "champion": 37,
+                "summonerSpells": {
+                    "spell1": 4,
+                    "spell2": 21
+                },
+                "runes": {
+                    "primaryRune": 8214,
+                    "secondaryRune": 8300
+                },
+                "kda": {
+                    "kills": 0,
+                    "deaths": 4,
+                    "assists": 8,
+                    "kda": "2.00"
+                },
+                "damage": 2508,
+                "wards": 7,
+                "cs": {
+                    "totalCS": 10,
+                    "cspm": "0.7"
+                },
+                "items": {
+                    "item1": 2055,
+                    "item2": 3802,
+                    "item3": 3851,
+                    "item4": 3070,
+                    "item5": 1082,
+                    "item6": 2422,
+                    "Item7": 3364
+                }
+            },
+            {
+                "team": 200,
+                "player": "one dance",
+                "champion": 164,
+                "summonerSpells": {
+                    "spell1": 4,
+                    "spell2": 12
+                },
+                "runes": {
+                    "primaryRune": 8437,
+                    "secondaryRune": 8300
+                },
+                "kda": {
+                    "kills": 1,
+                    "deaths": 4,
+                    "assists": 1,
+                    "kda": "0.50"
+                },
+                "damage": 4807,
+                "wards": 2,
+                "cs": {
+                    "totalCS": 99,
+                    "cspm": "6.4"
+                },
+                "items": {
+                    "item1": 1055,
+                    "item2": 3078,
+                    "item3": 2031,
+                    "item4": 0,
+                    "item5": 2422,
+                    "item6": 0,
+                    "Item7": 3340
+                }
+            },
+            {
+                "team": 200,
+                "player": "Scrim",
+                "champion": 555,
+                "summonerSpells": {
+                    "spell1": 14,
+                    "spell2": 4
+                },
+                "runes": {
+                    "primaryRune": 8360,
+                    "secondaryRune": 8000
+                },
+                "kda": {
+                    "kills": 2,
+                    "deaths": 4,
+                    "assists": 3,
+                    "kda": "1.25"
+                },
+                "damage": 2216,
+                "wards": 6,
+                "cs": {
+                    "totalCS": 18,
+                    "cspm": "1.2"
+                },
+                "items": {
+                    "item1": 3117,
+                    "item2": 3855,
+                    "item3": 2424,
+                    "item4": 3179,
+                    "item5": 0,
+                    "item6": 0,
+                    "Item7": 3364
+                }
+            },
+            {
+                "team": 200,
+                "player": "Apathing",
+                "champion": 30,
+                "summonerSpells": {
+                    "spell1": 11,
+                    "spell2": 4
+                },
+                "runes": {
+                    "primaryRune": 8128,
+                    "secondaryRune": 8300
+                },
+                "kda": {
+                    "kills": 4,
+                    "deaths": 4,
+                    "assists": 0,
+                    "kda": "1.00"
+                },
+                "damage": 6647,
+                "wards": 2,
+                "cs": {
+                    "totalCS": 18,
+                    "cspm": "1.2"
+                },
+                "items": {
+                    "item1": 1402,
+                    "item2": 1082,
+                    "item3": 2055,
+                    "item4": 3916,
+                    "item5": 0,
+                    "item6": 3020,
+                    "Item7": 3364
+                }
+            },
+            {
+                "team": 200,
+                "player": "Namdur",
+                "champion": 84,
+                "summonerSpells": {
+                    "spell1": 12,
+                    "spell2": 4
+                },
+                "runes": {
+                    "primaryRune": 8021,
+                    "secondaryRune": 8400
+                },
+                "kda": {
+                    "kills": 2,
+                    "deaths": 4,
+                    "assists": 2,
+                    "kda": "1.00"
+                },
+                "damage": 4326,
+                "wards": 3,
+                "cs": {
+                    "totalCS": 79,
+                    "cspm": "5.1"
+                },
+                "items": {
+                    "item1": 2031,
+                    "item2": 3191,
+                    "item3": 1001,
+                    "item4": 1054,
+                    "item5": 3145,
+                    "item6": 1053,
+                    "Item7": 3340
+                }
+            },
+            {
+                "team": 200,
+                "player": "idol",
+                "champion": 498,
+                "summonerSpells": {
+                    "spell1": 4,
+                    "spell2": 7
+                },
+                "runes": {
+                    "primaryRune": 8008,
+                    "secondaryRune": 8200
+                },
+                "kda": {
+                    "kills": 1,
+                    "deaths": 4,
+                    "assists": 2,
+                    "kda": "0.75"
+                },
+                "damage": 4584,
+                "wards": 2,
+                "cs": {
+                    "totalCS": 84,
+                    "cspm": "5.5"
+                },
+                "items": {
+                    "item1": 1055,
+                    "item2": 1083,
+                    "item3": 3133,
+                    "item4": 1001,
+                    "item5": 2031,
+                    "item6": 1038,
+                    "Item7": 3340
+                }
+            }
+        ],
+        "killParticipation": 20
+    },
+    {
+        "gameDuration": {
+            "minutes": 28,
+            "seconds": 11
+        },
+        "gameType": 420,
+        "daysAgo": 12,
+        "winner": {
+            "100": "Fail",
+            "200": "Win"
+        },
+        "win": true,
+        "players": [
+            {
+                "team": 100,
+                "player": "Hôrse",
+                "champion": 555,
+                "summonerSpells": {
+                    "spell1": 14,
+                    "spell2": 4
+                },
+                "runes": {
+                    "primaryRune": 9923,
+                    "secondaryRune": 8400
+                },
+                "kda": {
+                    "kills": 6,
+                    "deaths": 9,
+                    "assists": 9,
+                    "kda": "1.67"
+                },
+                "damage": 11424,
+                "wards": 31,
+                "cs": {
+                    "totalCS": 31,
+                    "cspm": "1.1"
+                },
+                "items": {
+                    "item1": 3857,
+                    "item2": 3179,
+                    "item3": 3117,
+                    "item4": 3147,
+                    "item5": 3133,
+                    "item6": 3105,
+                    "Item7": 3364
+                }
+            },
+            {
+                "team": 100,
+                "player": "ClarinetKim38",
+                "champion": 56,
+                "summonerSpells": {
+                    "spell1": 12,
+                    "spell2": 4
+                },
+                "runes": {
+                    "primaryRune": 8008,
+                    "secondaryRune": 8100
+                },
+                "kda": {
+                    "kills": 4,
+                    "deaths": 11,
+                    "assists": 6,
+                    "kda": "0.91"
+                },
+                "damage": 13575,
+                "wards": 9,
+                "cs": {
+                    "totalCS": 210,
+                    "cspm": "7.5"
+                },
+                "items": {
+                    "item1": 3071,
+                    "item2": 3006,
+                    "item3": 3077,
+                    "item4": 2420,
+                    "item5": 1038,
+                    "item6": 3814,
+                    "Item7": 3363
+                }
+            },
+            {
+                "team": 100,
+                "player": "ait eung uh",
+                "champion": 236,
+                "summonerSpells": {
+                    "spell1": 4,
+                    "spell2": 7
+                },
+                "runes": {
+                    "primaryRune": 8005,
+                    "secondaryRune": 8200
+                },
+                "kda": {
+                    "kills": 6,
+                    "deaths": 5,
+                    "assists": 6,
+                    "kda": "2.40"
+                },
+                "damage": 19545,
+                "wards": 8,
+                "cs": {
+                    "totalCS": 181,
+                    "cspm": "6.4"
+                },
+                "items": {
+                    "item1": 1055,
+                    "item2": 3153,
+                    "item3": 1038,
+                    "item4": 3508,
+                    "item5": 3047,
+                    "item6": 0,
+                    "Item7": 3363
+                }
+            },
+            {
+                "team": 100,
+                "player": "flarethesky",
+                "champion": 104,
+                "summonerSpells": {
+                    "spell1": 11,
+                    "spell2": 4
+                },
+                "runes": {
+                    "primaryRune": 8230,
+                    "secondaryRune": 8000
+                },
+                "kda": {
+                    "kills": 9,
+                    "deaths": 3,
+                    "assists": 8,
+                    "kda": "5.67"
+                },
+                "damage": 19650,
+                "wards": 3,
+                "cs": {
+                    "totalCS": 95,
+                    "cspm": "3.4"
+                },
+                "items": {
+                    "item1": 3071,
+                    "item2": 1412,
+                    "item3": 1036,
+                    "item4": 3181,
+                    "item5": 3812,
+                    "item6": 3047,
+                    "Item7": 3364
+                }
+            },
+            {
+                "team": 100,
+                "player": "Mr CMF",
+                "champion": 54,
+                "summonerSpells": {
+                    "spell1": 12,
+                    "spell2": 4
+                },
+                "runes": {
+                    "primaryRune": 8229,
+                    "secondaryRune": 8300
+                },
+                "kda": {
+                    "kills": 5,
+                    "deaths": 6,
+                    "assists": 9,
+                    "kda": "2.33"
+                },
+                "damage": 18458,
+                "wards": 7,
+                "cs": {
+                    "totalCS": 123,
+                    "cspm": "4.4"
+                },
+                "items": {
+                    "item1": 3145,
+                    "item2": 2033,
+                    "item3": 3157,
+                    "item4": 3285,
+                    "item5": 3067,
+                    "item6": 3020,
+                    "Item7": 3340
+                }
+            },
+            {
+                "team": 200,
+                "player": "one dance",
+                "champion": 164,
+                "summonerSpells": {
+                    "spell1": 4,
+                    "spell2": 12
+                },
+                "runes": {
+                    "primaryRune": 8010,
+                    "secondaryRune": 8300
+                },
+                "kda": {
+                    "kills": 14,
+                    "deaths": 4,
+                    "assists": 3,
+                    "kda": "4.25"
+                },
+                "damage": 25440,
+                "wards": 8,
+                "cs": {
+                    "totalCS": 201,
+                    "cspm": "7.1"
+                },
+                "items": {
+                    "item1": 1053,
+                    "item2": 3047,
+                    "item3": 3074,
+                    "item4": 3078,
+                    "item5": 3105,
+                    "item6": 3133,
+                    "Item7": 3363
+                }
+            },
+            {
+                "team": 200,
+                "player": "Cursed Object",
+                "champion": 107,
+                "summonerSpells": {
+                    "spell1": 4,
+                    "spell2": 11
+                },
+                "runes": {
+                    "primaryRune": 8112,
+                    "secondaryRune": 8300
+                },
+                "kda": {
+                    "kills": 6,
+                    "deaths": 8,
+                    "assists": 9,
+                    "kda": "1.88"
+                },
+                "damage": 16917,
+                "wards": 1,
+                "cs": {
+                    "totalCS": 39,
+                    "cspm": "1.4"
+                },
+                "items": {
+                    "item1": 1041,
+                    "item2": 3077,
+                    "item3": 3047,
+                    "item4": 3142,
+                    "item5": 3814,
+                    "item6": 3147,
+                    "Item7": 3364
+                }
+            },
+            {
+                "team": 200,
+                "player": "Over 16 characte",
+                "champion": 117,
+                "summonerSpells": {
+                    "spell1": 4,
+                    "spell2": 14
+                },
+                "runes": {
+                    "primaryRune": 8214,
+                    "secondaryRune": 8300
+                },
+                "kda": {
+                    "kills": 4,
+                    "deaths": 5,
+                    "assists": 19,
+                    "kda": "4.60"
+                },
+                "damage": 9184,
+                "wards": 25,
+                "cs": {
+                    "totalCS": 37,
+                    "cspm": "1.3"
+                },
+                "items": {
+                    "item1": 2065,
+                    "item2": 3107,
+                    "item3": 3860,
+                    "item4": 3117,
+                    "item5": 3504,
+                    "item6": 0,
+                    "Item7": 3364
+                }
+            },
+            {
+                "team": 200,
+                "player": "WX Bird",
+                "champion": 34,
+                "summonerSpells": {
+                    "spell1": 14,
+                    "spell2": 4
+                },
+                "runes": {
+                    "primaryRune": 8351,
+                    "secondaryRune": 8000
+                },
+                "kda": {
+                    "kills": 6,
+                    "deaths": 4,
+                    "assists": 7,
+                    "kda": "3.25"
+                },
+                "damage": 16356,
+                "wards": 12,
+                "cs": {
+                    "totalCS": 188,
+                    "cspm": "6.7"
+                },
+                "items": {
+                    "item1": 3151,
+                    "item2": 3030,
+                    "item3": 3157,
+                    "item4": 3020,
+                    "item5": 3916,
+                    "item6": 2055,
+                    "Item7": 3363
+                }
+            },
+            {
+                "team": 200,
+                "player": "Yega",
+                "champion": 51,
+                "summonerSpells": {
+                    "spell1": 4,
+                    "spell2": 7
+                },
+                "runes": {
+                    "primaryRune": 8021,
+                    "secondaryRune": 8200
+                },
+                "kda": {
+                    "kills": 4,
+                    "deaths": 9,
+                    "assists": 6,
+                    "kda": "1.11"
+                },
+                "damage": 17286,
+                "wards": 10,
+                "cs": {
+                    "totalCS": 182,
+                    "cspm": "6.5"
+                },
+                "items": {
+                    "item1": 3031,
+                    "item2": 0,
+                    "item3": 3095,
+                    "item4": 3006,
+                    "item5": 3046,
+                    "item6": 1055,
+                    "Item7": 3363
+                }
+            }
+        ],
+        "killParticipation": 50
+    },
+    {
+        "gameDuration": {
+            "minutes": 22,
+            "seconds": 55
+        },
+        "gameType": 420,
+        "daysAgo": 12,
+        "winner": {
+            "100": "Fail",
+            "200": "Win"
+        },
+        "win": false,
+        "players": [
+            {
+                "team": 100,
+                "player": "one dance",
+                "champion": 164,
+                "summonerSpells": {
+                    "spell1": 4,
+                    "spell2": 12
+                },
+                "runes": {
+                    "primaryRune": 8437,
+                    "secondaryRune": 8300
+                },
+                "kda": {
+                    "kills": 3,
+                    "deaths": 7,
+                    "assists": 1,
+                    "kda": "0.57"
+                },
+                "damage": 9890,
+                "wards": 6,
+                "cs": {
+                    "totalCS": 122,
+                    "cspm": "5.3"
+                },
+                "items": {
+                    "item1": 1055,
+                    "item2": 3047,
+                    "item3": 3078,
+                    "item4": 1055,
+                    "item5": 3133,
+                    "item6": 1053,
+                    "Item7": 3340
+                }
+            },
+            {
+                "team": 100,
+                "player": "Apmud",
+                "champion": 254,
+                "summonerSpells": {
+                    "spell1": 11,
+                    "spell2": 4
+                },
+                "runes": {
+                    "primaryRune": 8230,
+                    "secondaryRune": 8300
+                },
+                "kda": {
+                    "kills": 4,
+                    "deaths": 12,
+                    "assists": 5,
+                    "kda": "0.75"
+                },
+                "damage": 7643,
+                "wards": 6,
+                "cs": {
+                    "totalCS": 40,
+                    "cspm": "1.7"
+                },
+                "items": {
+                    "item1": 1401,
+                    "item2": 2055,
+                    "item3": 3742,
+                    "item4": 3047,
+                    "item5": 1057,
+                    "item6": 1029,
+                    "Item7": 3364
+                }
+            },
+            {
+                "team": 100,
+                "player": "Ravel Gaspard",
+                "champion": 68,
+                "summonerSpells": {
+                    "spell1": 4,
+                    "spell2": 14
+                },
+                "runes": {
+                    "primaryRune": 8229,
+                    "secondaryRune": 8100
+                },
+                "kda": {
+                    "kills": 10,
+                    "deaths": 17,
+                    "assists": 5,
+                    "kda": "0.88"
+                },
+                "damage": 23731,
+                "wards": 5,
+                "cs": {
+                    "totalCS": 98,
+                    "cspm": "4.3"
+                },
+                "items": {
+                    "item1": 3157,
+                    "item2": 3907,
+                    "item3": 3047,
+                    "item4": 1056,
+                    "item5": 1052,
+                    "item6": 3165,
+                    "Item7": 3340
+                }
+            },
+            {
+                "team": 100,
+                "player": "Dice Bot",
+                "champion": 497,
+                "summonerSpells": {
+                    "spell1": 4,
+                    "spell2": 14
+                },
+                "runes": {
+                    "primaryRune": 8465,
+                    "secondaryRune": 8100
+                },
+                "kda": {
+                    "kills": 2,
+                    "deaths": 6,
+                    "assists": 9,
+                    "kda": "1.83"
+                },
+                "damage": 7669,
+                "wards": 29,
+                "cs": {
+                    "totalCS": 39,
+                    "cspm": "1.7"
+                },
+                "items": {
+                    "item1": 3859,
+                    "item2": 3114,
+                    "item3": 3158,
+                    "item4": 2055,
+                    "item5": 3050,
+                    "item6": 3801,
+                    "Item7": 3364
+                }
+            },
+            {
+                "team": 100,
+                "player": "Frenžy",
+                "champion": 202,
+                "summonerSpells": {
+                    "spell1": 7,
+                    "spell2": 4
+                },
+                "runes": {
+                    "primaryRune": 8021,
+                    "secondaryRune": 8200
+                },
+                "kda": {
+                    "kills": 1,
+                    "deaths": 11,
+                    "assists": 8,
+                    "kda": "0.82"
+                },
+                "damage": 8484,
+                "wards": 6,
+                "cs": {
+                    "totalCS": 98,
+                    "cspm": "4.3"
+                },
+                "items": {
+                    "item1": 3031,
+                    "item2": 1042,
+                    "item3": 1083,
+                    "item4": 3047,
+                    "item5": 1055,
+                    "item6": 2055,
+                    "Item7": 3363
+                }
+            },
+            {
+                "team": 200,
+                "player": "you are ìn the X",
+                "champion": 555,
+                "summonerSpells": {
+                    "spell1": 4,
+                    "spell2": 14
+                },
+                "runes": {
+                    "primaryRune": 9923,
+                    "secondaryRune": 8400
+                },
+                "kda": {
+                    "kills": 19,
+                    "deaths": 4,
+                    "assists": 17,
+                    "kda": "9.00"
+                },
+                "damage": 24453,
+                "wards": 9,
+                "cs": {
+                    "totalCS": 94,
+                    "cspm": "4.1"
+                },
+                "items": {
+                    "item1": 3077,
+                    "item2": 3142,
+                    "item3": 3111,
+                    "item4": 3812,
+                    "item5": 3147,
+                    "item6": 3071,
+                    "Item7": 3340
+                }
+            },
+            {
+                "team": 200,
+                "player": "100T SHIPTURNOSE",
+                "champion": 98,
+                "summonerSpells": {
+                    "spell1": 4,
+                    "spell2": 14
+                },
+                "runes": {
+                    "primaryRune": 8437,
+                    "secondaryRune": 8100
+                },
+                "kda": {
+                    "kills": 4,
+                    "deaths": 1,
+                    "assists": 12,
+                    "kda": "16.00"
+                },
+                "damage": 8597,
+                "wards": 5,
+                "cs": {
+                    "totalCS": 117,
+                    "cspm": "5.1"
+                },
+                "items": {
+                    "item1": 3068,
+                    "item2": 3077,
+                    "item3": 3047,
+                    "item4": 1054,
+                    "item5": 3052,
+                    "item6": 1028,
+                    "Item7": 3340
+                }
+            },
+            {
+                "team": 200,
+                "player": "GDOG 1V9",
+                "champion": 50,
+                "summonerSpells": {
+                    "spell1": 4,
+                    "spell2": 7
+                },
+                "runes": {
+                    "primaryRune": 8112,
+                    "secondaryRune": 8000
+                },
+                "kda": {
+                    "kills": 8,
+                    "deaths": 4,
+                    "assists": 17,
+                    "kda": "6.25"
+                },
+                "damage": 18121,
+                "wards": 9,
+                "cs": {
+                    "totalCS": 126,
+                    "cspm": "5.5"
+                },
+                "items": {
+                    "item1": 3020,
+                    "item2": 3152,
+                    "item3": 3151,
+                    "item4": 3157,
+                    "item5": 0,
+                    "item6": 0,
+                    "Item7": 3363
+                }
+            },
+            {
+                "team": 200,
+                "player": "eXyu",
+                "champion": 104,
+                "summonerSpells": {
+                    "spell1": 11,
+                    "spell2": 14
+                },
+                "runes": {
+                    "primaryRune": 8230,
+                    "secondaryRune": 8000
+                },
+                "kda": {
+                    "kills": 9,
+                    "deaths": 6,
+                    "assists": 24,
+                    "kda": "5.50"
+                },
+                "damage": 21007,
+                "wards": 4,
+                "cs": {
+                    "totalCS": 65,
+                    "cspm": "2.8"
+                },
+                "items": {
+                    "item1": 1412,
+                    "item2": 3142,
+                    "item3": 3035,
+                    "item4": 3006,
+                    "item5": 3179,
+                    "item6": 3067,
+                    "Item7": 3364
+                }
+            },
+            {
+                "team": 200,
+                "player": "AkDuke",
+                "champion": 80,
+                "summonerSpells": {
+                    "spell1": 14,
+                    "spell2": 4
+                },
+                "runes": {
+                    "primaryRune": 8010,
+                    "secondaryRune": 8100
+                },
+                "kda": {
+                    "kills": 13,
+                    "deaths": 5,
+                    "assists": 12,
+                    "kda": "5.00"
+                },
+                "damage": 15380,
+                "wards": 22,
+                "cs": {
+                    "totalCS": 28,
+                    "cspm": "1.2"
+                },
+                "items": {
+                    "item1": 3179,
+                    "item2": 3193,
+                    "item3": 2055,
+                    "item4": 3855,
+                    "item5": 3009,
+                    "item6": 3071,
+                    "Item7": 3364
+                }
+            }
+        ],
+        "killParticipation": 20
+    }
+]

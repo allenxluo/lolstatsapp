@@ -1,0 +1,250 @@
+.Victory {
+    background-color: rgb(179, 226, 255);
+    height: 80px;
+    width: 650px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: silver;
+    margin-bottom: 5px;
+}
+
+.Defeat {
+    background-color: #ff9999;
+    height: 80px;
+    width: 650px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: silver;
+    margin-bottom: 5px;
+}
+
+.time {
+    float: left;
+    height: 80px;
+    width: 85px;
+    font-size: 10px;
+    position: relative;
+    top: 0px;
+}
+
+.queueType {
+    font-size: 12px;
+    font-weight: 500;
+    position: relative;
+    top: 0px;
+    margin-top: 5px;
+}
+
+.timeAgo {
+    font-size: 11px;
+    position: relative;
+    top: 0px;
+    margin-bottom: 5px;
+}
+
+.win {
+    font-size: 12px;
+    font-weight: 600;
+    color: dodgerblue;
+    position: relative;
+    top: 0px;
+}
+
+.gameLength {
+    font-size: 11px;
+    position: relative;
+    top: 0px;
+}
+
+.championIcon {
+    float: left;
+    height: 80px;
+    width: 60px;
+    font-size: 10px;
+    position: relative;
+    top: 0px;
+}
+
+.summonerSpellsAndRunes {
+    float: left;
+    height: 50px;
+    width: 60px;
+    font-size: 10px;
+    position: relative;
+    top: 15px;
+}
+
+.championIconImg {
+    height: 50px;
+    border-radius: 50%;
+    display: block;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.summonerSpell {
+    height: 25px;
+    display: block;
+    position: relative;
+}
+
+.spellOrRuneSet {
+    float: left;
+    height: 80px;
+    width: 30px;
+    font-size: 10px;
+    position: relative;
+    top: 0px;
+}
+
+.rune {
+    border-radius: 50%;
+    height: 25px;
+    display: block;
+    position: relative;
+}
+
+.kdaContainer {
+    float: left;
+    height: 80px;
+    width: 80px;
+    font-size: 10px;
+    position: relative;
+    top: 0px;
+}
+
+.killsDeathsAssists {
+    font-size: 15px;
+    font-weight: 500;
+    position: relative;
+    top: 15px;
+}
+
+.kda {
+    font-size: 12px;
+    font-weight: 500;
+    position: relative;
+    top: 17px;
+}
+
+.levelCSKPContainer {
+    float: left;
+    height: 80px;
+    width: 80px;
+    font-size: 10px;
+    position: relative;
+    top: 0px;
+}
+
+.levelCSKP {
+    font-size: 12px;
+    font-weight: 500;
+    position: relative;
+    top: 10px;
+}
+
+.itemContainer {
+    float: left;
+    height: 80px;
+    width: 100px;
+    font-size: 10px;
+    position: relative;
+    top: 0px;
+}
+
+.item1-4 {
+    float: left;
+    height: 25px;
+    position: relative;
+    top: 10px;
+}
+
+.item5-7 {
+    float: left;
+    height: 25px;
+    position: relative;
+    top: 10px;
+}
+
+.emptyItem {
+    float: left;
+    height: 25px;
+    width: 25px;
+    background-color: gray;
+    position: relative;
+    top: 10px;
+}
+
+.wards {
+    position: relative;
+    top: 10px;
+}
+
+.playersContainer {
+    float: left;
+    height: 80px;
+    width: 150px;
+    font-size: 10px;
+    position: relative;
+    top: 0px;
+}
+
+.teamContainer {
+    float: left;
+    height: 80px;
+    width: 75px;
+    font-size: 10px;
+    position: relative;
+    top: 0px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.miniChampionIcon {
+    height: 16px;
+    width: 16px;
+}
+
+.player {
+    text-align: left;
+    width: 75px;
+    height: 16px;
+    position: relative;
+}
+
+.showFullMatchInfoContainerVictory {
+    background-color: #8DB4F8;
+    float: left;
+    height: 80px;
+    width: 35px;
+    position: relative;
+    top: 0px;
+}
+
+.showFullMatchInfoContainerDefeat {
+    background-color: #ff8080;
+    float: left;
+    height: 80px;
+    width: 35px;
+    position: relative;
+    top: 0px;
+}
+
+.showFullMatchInfoButton {
+    background-color: transparent;
+    border: transparent;
+    position: relative;
+    top: 40px;
+}
+
+.playerName {
+    float: right;
+    font-size: 10px;
+    height: 16px;
+    width: 59px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
