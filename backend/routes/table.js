@@ -5,7 +5,7 @@ var summonerSpells = require('./SummonerSpells.json');
 var runes = require('./Runes.json');
 
 const api_key = 'RGAPI-fdadd9cf-d224-404a-bb43-0b2970cf404b';
-var summonerName = '';
+var summonerName = 'one dance';
 
 const { Kayn } = require('kayn');
 const kayn = Kayn(api_key)({ requestOptions: { burst: true }})
@@ -95,6 +95,9 @@ router.get('/', async function(req, res) {
             }
             if ((Date.now() - time) / 86400000 < 31) {
                 return Math.floor((Date.now() - time) / 86400000).toString() + ' days ago';
+            }
+            if ((Date.now() - time) / 2592000000 < 12) {
+                return Math.floor((Date.now() - time) / 2592000000).toString() + ' months ago';
             }
         }
     

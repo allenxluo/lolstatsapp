@@ -1,6 +1,8 @@
 import React from 'react';
 import Match from './match.js';
 import axios from 'axios';
+import './matchHistory.css'
+import Navbar from 'react-bootstrap/Navbar';
 
 class MatchHistory extends React.Component {
     constructor(props) {
@@ -22,9 +24,9 @@ class MatchHistory extends React.Component {
             showMatches: false
         })
         e.preventDefault();
-        await axios.post('http://localhost:9000/table', this.state);
-        const info = await fetch('http://localhost:9000/table');
-        const jsonInfo = await info.json();
+        axios.post('http://localhost:9000/table', this.state);
+        const info = await axios.get('http://localhost:9000/table');
+        const jsonInfo = await info.data;
         this.setState({
             info: JSON.stringify(jsonInfo),
             showMatches: true
@@ -48,16 +50,35 @@ class MatchHistory extends React.Component {
         );
     }
 
+    returnIcon(iconId) {
+        return 'http://ddragon.leagueoflegends.com/cdn/10.19.1/img/profileicon/' + iconId + '.png';
+    }
+
+    renderIconName() {
+        return (
+            <div className='iconName'>
+                <img src={this.returnIcon(JSON.parse(this.state.info)[0].profileIconId)} className='icon'/>
+                <div className='summonerName'>{JSON.parse(this.state.info)[0].name}</div>
+            </div>
+        );
+    }
+
     render() {
         return (
-            <div>
-                <form className='searchBar' onSubmit={this.handleSubmit}>
+            <div className='page'>
+                {this.state.showMatches && this.renderIconName()}
+                <Navbar bg="primary" variant="dark" className='navbar'>
+                    <text className='pageName'>A.GG</text>
+                </Navbar>
+                <form onSubmit={this.handleSubmit} className='searchBar'>
                     <label>
-                        <input type="text" value={this.state.value} onChange={this.handleChange}/>
+                        <input type="text" value={this.state.value} onChange={this.handleChange} placeholder='Search'/>
                     </label>
-                    <input type="submit" value="Submit"/>
+                    <input type="submit" value="Search"/>
                 </form>
-                {this.state.showMatches && this.renderMatches()}
+                <div className='matchHistory'>
+                    {this.state.showMatches && this.renderMatches()}
+                </div>
             </div>
         );
     }

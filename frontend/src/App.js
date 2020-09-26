@@ -1,6 +1,6 @@
 import React from 'react';
-import SearchBar from './components/searchBar';
-import MatchHistory from './components/matchHistory'
+import MatchHistory from './components/matchHistory';
+import NavBar from './components/navbar';
 import './App.css';
 
 class App extends React.Component {
