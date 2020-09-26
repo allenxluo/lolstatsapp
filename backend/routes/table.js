@@ -4,8 +4,8 @@ var championKeys = require('./championData.json');
 var summonerSpells = require('./SummonerSpells.json');
 var runes = require('./Runes.json');
 
-const api_key = 'RGAPI-fb5eef82-57c8-4de1-888d-e021e1c36bea';
-var summonerName = 'one dance';
+const api_key = 'RGAPI-fdadd9cf-d224-404a-bb43-0b2970cf404b';
+var summonerName = '';
 
 const { Kayn } = require('kayn');
 const kayn = Kayn(api_key)({ requestOptions: { burst: true }})
@@ -82,10 +82,25 @@ router.get('/', async function(req, res) {
         function findSummonerSpell(id) {
             return summonerSpells[id];
         }
+
+        function findTimeAgo(time) {
+            if ((Date.now() - time) / 1000 < 60) {
+                return Math.floor((Date.now() - time) / 60).toString() +  ' seconds ago';
+            }
+            if ((Date.now() - time) / 60000 < 60) {
+                return Math.floor((Date.now() - time) / 60000).toString() + ' minutes ago';
+            }
+            if ((Date.now() - time) / 3600000 < 24) {
+                return Math.floor((Date.now() - time) / 3600000).toString() + ' hours ago';
+            }
+            if ((Date.now() - time) / 86400000 < 31) {
+                return Math.floor((Date.now() - time) / 86400000).toString() + ' days ago';
+            }
+        }
     
         allStats['gameDuration'] = { 'minutes': Math.floor(parseInt(match.gameDuration) / 60), 'seconds': parseInt(match.gameDuration) % 60 };
         allStats['gameType'] = (match.queueId == 420 ? 'Ranked Solo' : 'Normals');
-        allStats['daysAgo'] = (Math.floor((Date.now() - parseInt(match.gameCreation)) / 86400000)).toString() + ' days ago';
+        allStats['daysAgo'] = findTimeAgo(parseInt(match.gameCreation));
     
         const teams = {};
         teams[match.teams[0].teamId] = match.teams[0].win;

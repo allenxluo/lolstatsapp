@@ -23,33 +23,47 @@ import GlacialAugment from './images/runes/GlacialAugment.png';
 import UnsealedSpellbook from './images/runes/UnsealedSpellbook.png';
 import MasterKey from './images/runes/MasterKey.png';
 
+import Domination from './images/runes/Domination.png';
+import Electrocute from './images/runes/Electrocute.png';
+import HailOfBlades from './images/runes/HailOfBlades.png';
+import Predator from './images/runes/Predator.png';
+import DarkHarvest from './images/runes/Predator.png';
+
 class Match extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
+            playerName: this.props.playerName.name,
             backgroundColor: this.props.data.win,
-            buttonBackgroundColor: 'showFullMatchInfoContainer' + this.props.data.win 
+            buttonBackgroundColor: 'showFullMatchInfoContainer' + this.props.data.win, 
+            buttonColor: (this.props.data.win == 'Victory' ? 'royalblue' : 'crimson'),
+            winOrLose: 'text' + this.props.data.win
         }
     }
 
     findRuneImage(imageName) {
         const runes = {
+            Domination: Domination,
+            Electrocute: Electrocute,
+            "Hail of Blades": HailOfBlades,
+            Predator: Predator,
+            "Dark Harvest": DarkHarvest,
             Precision: Precision,
             Conqueror: Conqueror,
-            FleetFootwork: FleetFootwork,
-            LethalTempo: LethalTempo,
-            PressTheAttack: PressTheAttack,
+            "Fleet Footwork": FleetFootwork,
+            "Lethal Tempo": LethalTempo,
+            "Press the Attack": PressTheAttack,
             Sorcery: Sorcery,
-            PhaseRush: PhaseRush,
-            ArcaneComet: ArcaneComet,
-            SummonAery: SummonAery,
+            "Phase Rush": PhaseRush,
+            "Arcane Comet": ArcaneComet,
+            "Summon Aery": SummonAery,
             Resolve: Resolve,
             "Grasp of the Undying": GraspOfTheUndying,
-            AfterShock: AfterShock,
+            Aftershock: AfterShock,
             Guardian: Guardian,
             Inspiration: Inspiration,
-            GlacialAugment: GlacialAugment,
-            UnsealedSpellbook: UnsealedSpellbook,
+            "Glacial Augment": GlacialAugment,
+            "Unsealed Spellbook": UnsealedSpellbook,
             MasterKey: MasterKey
         }
         return runes[imageName];
@@ -68,7 +82,7 @@ class Match extends React.Component {
     }
 
     returnItem(itemNumber, className) {
-        const item = this.props.data.players['one dance'].items[itemNumber];
+        const item = this.props.data.players[this.state.playerName].items[itemNumber];
         if (item != 0) {
             return <img src={this.findItem(item)} className={className}/>
         } else {
@@ -165,29 +179,30 @@ class Match extends React.Component {
                 <div className='time'>
                     <div className='queueType'>{this.props.data.gameType}</div>
                     <div className='timeAgo'>{this.props.data.daysAgo}</div>
-                    <div className='win'>{this.props.data.win}</div>
+                    <div className={this.state.winOrLose}>{this.props.data.win}</div>
                     <div className='gameLength'>{this.props.data.gameDuration.minutes}m {this.props.data.gameDuration.seconds}s</div>
                 </div>
                 <div className='championIcon'>
-                    <img src={this.findChampionIcon(this.props.data.players['one dance'].champion)} className='championIconImg'/>
+                    <img src={this.findChampionIcon(this.props.data.players[this.state.playerName].champion)} className='championIconImg'/>
+                    <div className='championName'>{this.props.data.players[this.state.playerName].champion}</div>
                 </div>
                 <div className='summonerSpellsAndRunes'>
                     <div className='spellOrRuneSet'>
-                        <img src={this.findSummonerSpell(this.props.data.players['one dance'].summonerSpells.spell1)} className='summonerSpell'/>
-                        <img src={this.findSummonerSpell(this.props.data.players['one dance'].summonerSpells.spell2)} className='summonerSpell'/>
+                        <img src={this.findSummonerSpell(this.props.data.players[this.state.playerName].summonerSpells.spell1)} className='summonerSpell'/>
+                        <img src={this.findSummonerSpell(this.props.data.players[this.state.playerName].summonerSpells.spell2)} className='summonerSpell'/>
                     </div>
                     <div className='spellOrRuneSet'>
-                        <img src={this.findRuneImage(this.props.data.players['one dance'].runes.primaryRune)} className='rune'/>
-                        <img src={this.findRuneImage(this.props.data.players['one dance'].runes.secondaryRune)} className='rune'/>
+                        <img src={this.findRuneImage(this.props.data.players[this.state.playerName].runes.primaryRune)} className='topRune'/>
+                        <img src={this.findRuneImage(this.props.data.players[this.state.playerName].runes.secondaryRune)} className='bottomRune'/>
                     </div>
                 </div>
                 <div className='kdaContainer'>
-                    <div className='killsDeathsAssists'>{this.props.data.players['one dance'].kda.kills} / {this.props.data.players['one dance'].kda.deaths} / {this.props.data.players['one dance'].kda.assists}</div>
-                    <div className='kda'>{this.props.data.players['one dance'].kda.kda} KDA</div>
+                    <div className='killsDeathsAssists'>{this.props.data.players[this.state.playerName].kda.kills} / {this.props.data.players[this.state.playerName].kda.deaths} / {this.props.data.players[this.state.playerName].kda.assists}</div>
+                    <div className='kda'>{this.props.data.players[this.state.playerName].kda.kda} KDA</div>
                 </div>
                 <div className='levelCSKPContainer'>
-                    <div className='levelCSKP'>Level {this.props.data.players['one dance'].championLevel}</div>
-                    <div className='levelCSKP'>{this.props.data.players['one dance'].cs.totalCS} ({this.props.data.players['one dance'].cs.cspm}) CS</div>
+                    <div className='levelCSKP'>Level {this.props.data.players[this.state.playerName].championLevel}</div>
+                    <div className='levelCSKP'>{this.props.data.players[this.state.playerName].cs.totalCS} ({this.props.data.players[this.state.playerName].cs.cspm}) CS</div>
                     <div className='levelCSKP'>Kill P: {this.props.data.killParticipation}%</div>
                 </div>
                 <div className='itemContainer'>
@@ -198,14 +213,14 @@ class Match extends React.Component {
                     {this.returnItem('item4', 'item5-7')}
                     {this.returnItem('item5', 'item5-7')}
                     {this.returnItem('item6', 'item5-7')}
-                    <div className='wards'>Wards: {this.props.data.players['one dance'].wards}</div>
+                    <div className='wards'>Wards: {this.props.data.players[this.state.playerName].wards}</div>
                 </div>
                 <div>
                     {this.returnPlayers()}
                 </div>
                 <div className={this.state.buttonBackgroundColor}>
                     <button className='showFullMatchInfoButton'>
-                        <FaAngleDown size='20' color='blue'/>
+                        <FaAngleDown size='20' color={this.state.buttonColor}/>
                     </button>
                 </div>
             </div>

@@ -1,5 +1,6 @@
 import React from 'react';
-import Match from './match.js'
+import Match from './match.js';
+import axios from 'axios';
 
 class MatchHistory extends React.Component {
     constructor(props) {
@@ -21,10 +22,9 @@ class MatchHistory extends React.Component {
             showMatches: false
         })
         e.preventDefault();
-        //axios.post('http://localhost:9000/table', this.state);
+        await axios.post('http://localhost:9000/table', this.state);
         const info = await fetch('http://localhost:9000/table');
         const jsonInfo = await info.json();
-        jsonInfo.shift();
         this.setState({
             info: JSON.stringify(jsonInfo),
             showMatches: true
@@ -34,16 +34,16 @@ class MatchHistory extends React.Component {
     renderMatches() {
         return (
         <div>
-            <Match data={JSON.parse(this.state.info)[0]}></Match>
-            <Match data={JSON.parse(this.state.info)[1]}></Match>
-            <Match data={JSON.parse(this.state.info)[2]}></Match>
-            <Match data={JSON.parse(this.state.info)[3]}></Match>
-            <Match data={JSON.parse(this.state.info)[4]}></Match>
-            <Match data={JSON.parse(this.state.info)[5]}></Match>
-            <Match data={JSON.parse(this.state.info)[6]}></Match>
-            <Match data={JSON.parse(this.state.info)[7]}></Match>
-            <Match data={JSON.parse(this.state.info)[8]}></Match>
-            <Match data={JSON.parse(this.state.info)[9]}></Match>
+            <Match data={JSON.parse(this.state.info)[1]} playerName={JSON.parse(this.state.info)[0]}></Match>
+            <Match data={JSON.parse(this.state.info)[2]} playerName={JSON.parse(this.state.info)[0]}></Match>
+            <Match data={JSON.parse(this.state.info)[3]} playerName={JSON.parse(this.state.info)[0]}></Match>
+            <Match data={JSON.parse(this.state.info)[4]} playerName={JSON.parse(this.state.info)[0]}></Match>
+            <Match data={JSON.parse(this.state.info)[5]} playerName={JSON.parse(this.state.info)[0]}></Match>
+            <Match data={JSON.parse(this.state.info)[6]} playerName={JSON.parse(this.state.info)[0]}></Match>
+            <Match data={JSON.parse(this.state.info)[7]} playerName={JSON.parse(this.state.info)[0]}></Match>
+            <Match data={JSON.parse(this.state.info)[8]} playerName={JSON.parse(this.state.info)[0]}></Match>
+            <Match data={JSON.parse(this.state.info)[9]} playerName={JSON.parse(this.state.info)[0]}></Match>
+            <Match data={JSON.parse(this.state.info)[10]} playerName={JSON.parse(this.state.info)[0]}></Match>
         </div>
         );
     }

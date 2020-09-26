@@ -1,7 +1,7 @@
 .Victory {
     background-color: rgb(179, 226, 255);
-    height: 80px;
-    width: 650px;
+    height: 95px;
+    width: 675px;
     border-style: solid;
     border-width: 1px;
     border-color: silver;
@@ -9,9 +9,9 @@
 }
 
 .Defeat {
-    background-color: #ff9999;
-    height: 80px;
-    width: 650px;
+    background-color:pink;
+    height: 95px;
+    width: 675px;
     border-style: solid;
     border-width: 1px;
     border-color: silver;
@@ -20,11 +20,11 @@
 
 .time {
     float: left;
-    height: 80px;
+    height: 95px;
     width: 85px;
     font-size: 10px;
     position: relative;
-    top: 0px;
+    top: 10px;
 }
 
 .queueType {
@@ -42,10 +42,18 @@
     margin-bottom: 5px;
 }
 
-.win {
+.textVictory {
     font-size: 12px;
     font-weight: 600;
-    color: dodgerblue;
+    color: royalblue;
+    position: relative;
+    top: 0px;
+}
+
+.textDefeat {
+    font-size: 12px;
+    font-weight: 600;
+    color: crimson;
     position: relative;
     top: 0px;
 }
@@ -62,12 +70,21 @@
     width: 60px;
     font-size: 10px;
     position: relative;
-    top: 0px;
+}
+
+.championName {
+    font-size: 11px;
+    font-weight: 500;
+    position: relative;
+    top: 17.5px;
+    left: 30px;
+    height: 10px;
+    width: 50px;
 }
 
 .summonerSpellsAndRunes {
     float: left;
-    height: 50px;
+    height: 70px;
     width: 60px;
     font-size: 10px;
     position: relative;
@@ -85,9 +102,11 @@
 }
 
 .summonerSpell {
-    height: 25px;
+    height: 22.5px;
     display: block;
     position: relative;
+    border-radius: 10%;
+    margin-bottom: 2.5px;
 }
 
 .spellOrRuneSet {
@@ -99,20 +118,30 @@
     top: 0px;
 }
 
-.rune {
+.topRune {
     border-radius: 50%;
-    height: 25px;
+    height: 22.5px;
     display: block;
     position: relative;
+    background-color: black;
+    margin-bottom: 2.5px;
+}
+
+.bottomRune {
+    border-radius: 50%;
+    height: 22.5px;
+    display: block;
+    position: relative;
+    margin-bottom: 2.5px;
 }
 
 .kdaContainer {
     float: left;
-    height: 80px;
+    height: 95px;
     width: 80px;
     font-size: 10px;
     position: relative;
-    top: 0px;
+    top: 10px;
 }
 
 .killsDeathsAssists {
@@ -131,11 +160,11 @@
 
 .levelCSKPContainer {
     float: left;
-    height: 80px;
+    height: 95px;
     width: 80px;
     font-size: 10px;
     position: relative;
-    top: 0px;
+    top: 10px;
 }
 
 .levelCSKP {
@@ -147,64 +176,77 @@
 
 .itemContainer {
     float: left;
-    height: 80px;
+    height: 95px;
     width: 100px;
     font-size: 10px;
     position: relative;
-    top: 0px;
+    top: 10px;
 }
 
 .item1-4 {
     float: left;
-    height: 25px;
+    height: 23px;
     position: relative;
     top: 10px;
+    margin: 1px;
+    border-radius: 10%;
 }
 
 .item5-7 {
     float: left;
-    height: 25px;
+    height: 23px;
     position: relative;
     top: 10px;
+    margin: 1px;
+    border-radius: 10%;
 }
 
 .emptyItem {
     float: left;
-    height: 25px;
-    width: 25px;
+    height: 23px;
+    width: 23px;
     background-color: gray;
     position: relative;
     top: 10px;
+    margin: 1px;
+    border-radius: 10%;
 }
 
 .wards {
     position: relative;
     top: 10px;
+    font-weight: 500;
 }
 
 .playersContainer {
     float: left;
-    height: 80px;
-    width: 150px;
+    height: 10px;
+    width: 165px;
     font-size: 10px;
     position: relative;
     top: 0px;
+    margin-top: 5px;
+    margin-left: 10px;
 }
 
 .teamContainer {
     float: left;
-    height: 80px;
+    height: 90px;
     width: 75px;
     font-size: 10px;
     position: relative;
     top: 0px;
     overflow: hidden;
     text-overflow: ellipsis;
+    margin-left: 2.5px;
+    margin-right: 2.5px;
 }
 
 .miniChampionIcon {
-    height: 16px;
-    width: 16px;
+    height: 15px;
+    width: 15px;
+    margin-right: 2px;
+    border-radius: 10%
 }
 
 .player {
@@ -212,21 +254,22 @@
     width: 75px;
     height: 16px;
     position: relative;
+    margin: 1px;
 }
 
 .showFullMatchInfoContainerVictory {
     background-color: #8DB4F8;
     float: left;
-    height: 80px;
+    height: 95px;
     width: 35px;
     position: relative;
     top: 0px;
 }
 
 .showFullMatchInfoContainerDefeat {
-    background-color: #ff8080;
+    background-color:rgb(253, 173, 185);
     float: left;
-    height: 80px;
+    height: 95px;
     width: 35px;
     position: relative;
     top: 0px;
@@ -236,14 +279,14 @@
     background-color: transparent;
     border: transparent;
     position: relative;
-    top: 40px;
+    top: 55px;
 }
 
 .playerName {
     float: right;
-    font-size: 10px;
+    font-size: 11px;
     height: 16px;
-    width: 59px;
+    width: 57px;
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
