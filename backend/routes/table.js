@@ -4,10 +4,14 @@ var championKeys = require('./championData.json');
 var summonerSpells = require('./SummonerSpells.json');
 var runes = require('./Runes.json');
 
+const mongo = require('mongodb').MongoClient;
+const url = 'mongodb://127.0.0.1:27017/lolstatsapp';
+
 const api_key = 'RGAPI-fdadd9cf-d224-404a-bb43-0b2970cf404b';
 var summonerName = 'one dance';
 
 const { Kayn } = require('kayn');
+const { Db } = require('mongodb');
 const kayn = Kayn(api_key)({ requestOptions: { burst: true }})
 
 router.post('/', function(req, res) {
@@ -157,6 +161,18 @@ router.get('/', async function(req, res) {
         allGames.push(allStats);
         console.log(i);
     }
+
+    mongo.connect(url, function(err, db) {
+        const add = {info: allGames};
+        if (err) throw err;
+        const database = db.db('lolstatsapp');
+        database.collection("players/" + allGames[0].name).insertOne(JSON.parse(JSON.stringify(add)));
+        database.collection("players/" + allGames[0].name).find({}).toArray(function(err, result) {
+            console.log(JSON.stringify(result, null, 4));
+        });
+        console.log()
+        db.close();
+    });
 
     res.header('Content-Type', 'application/json');
     res.send(JSON.stringify(allGames, null, 4));
