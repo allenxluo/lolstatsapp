@@ -1,8 +1,8 @@
 import React from 'react';
 import Match from './match.js';
 import axios from 'axios';
-import './matchHistory.css'
-import Navbar from 'react-bootstrap/Navbar';
+import './matchHistory.css';
+import Navbar from '../../node_modules/react-bootstrap/Navbar';
 
 class MatchHistory extends React.Component {
     constructor(props) {
@@ -24,13 +24,14 @@ class MatchHistory extends React.Component {
             showMatches: false
         })
         e.preventDefault();
-        axios.post('http://localhost:9000/table', this.state);
-        const info = await axios.get('http://localhost:9000/table');
+        axios.post('http://localhost:3001/app', this.state);
+        const info = await axios.get('http://localhost:3001/app');
         const jsonInfo = await info.data;
         this.setState({
             info: JSON.stringify(jsonInfo),
             showMatches: true
         });
+        console.log(info)
     }
 
     renderMatches() {

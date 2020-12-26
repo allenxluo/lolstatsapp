@@ -1,6 +1,5 @@
 import React from 'react';
 import MatchHistory from './components/matchHistory';
-import NavBar from './components/navbar';
 import './App.css';
 
 class App extends React.Component {
@@ -14,7 +13,5 @@ class App extends React.Component {
     );
   }
 }
-
-
 
 export default App;

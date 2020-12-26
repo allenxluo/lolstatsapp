@@ -36,7 +36,7 @@ class Match extends React.Component {
             playerName: this.props.playerName.name,
             backgroundColor: this.props.data.win,
             buttonBackgroundColor: 'showFullMatchInfoContainer' + this.props.data.win, 
-            buttonColor: (this.props.data.win == 'Victory' ? 'royalblue' : 'crimson'),
+            buttonColor: (this.props.data.win === 'Victory' ? 'royalblue' : 'crimson'),
             winOrLose: 'text' + this.props.data.win
         }
     }
@@ -83,7 +83,7 @@ class Match extends React.Component {
 
     returnItem(itemNumber, className) {
         const item = this.props.data.players[this.state.playerName].items[itemNumber];
-        if (item != 0) {
+        if (item !== 0) {
             return <img src={this.findItem(item)} className={className}/>
         } else {
             return <div className='emptyItem'></div>
